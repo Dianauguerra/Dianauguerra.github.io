@@ -21,8 +21,8 @@
    */
   
   body {
-    font-family: 'Bitter', serif;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Akshar', sans-serif;
+
     margin: 0;
   }
   
@@ -40,8 +40,7 @@
    */
   
   h1 {
-    font-family: 'DM Serif Display', serif;
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
   }
