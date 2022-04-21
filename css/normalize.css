@@ -10,55 +10,71 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+  html {
+      line-height: 1.15; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */
   }
-  
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-body {
-  display:grid;
-  margin: 1em;
-  grid-template-columns: 400px 200px;
-  grid-template-rows:100px 200px 50px;
-}
-header{
-  margin:0;
-  grid-column: 1/3;
-  grid-row: 1/2;
+    
+    /* Sections
+      ========================================================================== */
+    
+    /**
+    * Remove the margin in all browsers.
+    */
+    
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-}
-.courseName{
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  align-items: left;
-  grid-column: 1/2;
-  grid-row: 2/2;
-}
+  .assignments{
+    font-family: 'Roboto', sans-serif;
+    align-items: left;
+    padding-left: 3em;
+    font-size: 15px;
+  }
+
+  nav a {
+    color: #747375;
+    font-size:1.1em;
+  }
+  nav a:link{
+    color:#313131;
+  }
+  nav a:visited {
+    color:#5f7cc1;
+  }
+  nav a:hover {
+    color: #0d0d0d;
+  }
 
   .picture{
-    align-items: right;
-    grid-column: 2/2;
-    grid-row: 2/2;
-    margin-top: -3em;
-    margin-right: -2em;
+    width: 200px;
+    border-radius: 5%;
+    float: right;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+  }
+  .profile-picture{
+    box-shadow: 3px 3px 5px 3px #ccc;
   }
   
 
   footer {
     font-family: 'Akshar', sans-serif;
-    padding: 1em;
-    align-items: center;
-    grid-column: 1/3;
     grid-row: 3/3;
+    color:rgb(221, 221, 221);
+    background-color:rgb(71, 93, 130);
+    border-radius: 10px;
+    padding: 1em;
+    padding-left: 40px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    font-size:12px;
   }
-  
+
   /**
    * Render the `main` element consistently in IE.
    */
@@ -76,17 +92,13 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
-    color:rgb(29, 29, 29);
-    background-color:rgb(193, 165, 116);
-    border-radius: 25px;
+    color:rgb(221, 221, 221);
+    background-color:rgb(71, 93, 130);
+    border-radius: 10px;
     padding: 20px;
     padding-left: 40px;
   }
 
-  h4{
-    font-size: 2em;
-    font-family: 'Akshar', sans-serif;
-  }
   
   /* Grouping content
      ========================================================================== */
