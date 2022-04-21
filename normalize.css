@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Roboto:wght@500&display=swap");
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -20,8 +22,26 @@
    * Remove the margin in all browsers.
    */
   
+   .course{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+  }
+  .courses{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    
+  }
+  .profile-picture{
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+  
   body {
     margin: 0;
+    display: grid;
+    grid-template-columns: 600px;
   }
   
   /**
@@ -38,8 +58,14 @@
    */
   
   h1 {
+    font-family: 'Akshar', sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
+    color:rgb(29, 29, 29);
+    background-color:rgb(193, 165, 116);
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 40px;
   }
   
   /* Grouping content
