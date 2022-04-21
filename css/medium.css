@@ -1,1 +1,12 @@
-@media (min-width: 32.5em) { }
+@media (min-width: 32.5em) {
+    .picture{
+        float: right;
+    }
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+    }
+    footer{
+        font-size: 1em;
+    }
+}

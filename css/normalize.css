@@ -51,7 +51,6 @@
   .picture{
     width: 200px;
     border-radius: 5%;
-    float: right;
     position: absolute;
     right: 20%;
     top: 10%;
@@ -72,7 +71,7 @@
     align-items: center;
     display: block;
     text-align: center;
-    font-size:12px;
+    font-size:0.8em;
   }
 
   /**
@@ -90,7 +89,7 @@
   
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     margin: 0.67em 0;
     color:rgb(221, 221, 221);
     background-color:rgb(71, 93, 130);
