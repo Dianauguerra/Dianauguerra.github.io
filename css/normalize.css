@@ -89,9 +89,9 @@
   
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     margin: 0.67em 0;
-    color:rgb(221, 221, 221);
+    color:#e1e1e1;
     background-color:rgb(71, 93, 130);
     border-radius: 10px;
     padding: 20px;
