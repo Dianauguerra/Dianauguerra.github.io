@@ -101,12 +101,30 @@
   .examples-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
   }
 
+  .hierarchy{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: auto;
+    padding: 2em;
+  }
 
+  .white-space{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: stretch;
+    padding: 2em;
 
+  }
 
+  .contrast{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+    padding: 2em;
+  }
 
 
 
