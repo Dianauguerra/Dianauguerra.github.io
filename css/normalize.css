@@ -97,7 +97,6 @@
     padding: 20px;
     padding-left: 40px;
   }
-
   .examples-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -109,8 +108,11 @@
     margin: 2em auto;
     padding: 2%;
   }
-  .example1, .example2, .example3 {
+  #example1, #example2, #example3 {
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+
 
   }
   .hierarchy{
@@ -127,6 +129,7 @@
     box-shadow: 3px 3px 5px 3px #ccc;
     margin:1em;
     padding: 7%;
+
   }
 
   .contrast{
@@ -137,6 +140,10 @@
     padding: 7%;
   }
 
+
+  p{
+    color:#000000;
+  }
 
 
 
