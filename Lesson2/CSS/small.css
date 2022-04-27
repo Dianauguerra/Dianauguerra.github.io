@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #fffcf2;
+  --secondary-color: #232e49;
+  --accent1-color: #FFB133;
+}
+
+#header-example {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
+#background-example {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#accent-example{
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#colors {
+    max-width: 100%;
+    margin: auto;
+  }
