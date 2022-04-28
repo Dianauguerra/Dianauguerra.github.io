@@ -7,6 +7,19 @@
   --accent1-color: #FFB133;
 }
 
+body{
+
+  background-color: rgb(248, 242, 235);
+  font-family: 'Poppins', sans-serif;;
+  text-align: center;
+}
+
+
+footer{
+  background-color: bisque;
+  padding: 1rem;
+}
+
 #header-example {
   background-color: var(--accent1-color);
   color: var(--secondary-color);
@@ -31,34 +44,56 @@
 }
 
 #colors {
-    max-width: 100%;
+    max-width: 50%;
     margin: auto;
+    padding: 2rem;
   }
-
-
-  body{
-
-    font-family: 'Poppins', sans-serif;;
-
-}
 
 a:link {
   color: var(--accent1-color);
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: var(--secondary-color);
-  background-color: var(--primary-color);
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: var(--accent1-color);
-  background-color: var(--primary-color);
+  color: black;
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
   color: var(--accent1-color);
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#header-font{
+
+  font-family:  'Bebas Neue', cursive;
+
+
+}
+
+#paragraph-font{
+  font-family:  'Akshar', sans-serif;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: bisque;
+  text-align: center;
 }
