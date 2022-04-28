@@ -1,4 +1,4 @@
-@media (min-width: 32.5em) {
+@media (min-width: 780px) and (max-width: 1200px){
     .picture{
         float: right;
     }
@@ -10,3 +10,5 @@
         font-size: 1em;
     }
 }
+
+    
