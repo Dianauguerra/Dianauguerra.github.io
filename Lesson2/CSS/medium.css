@@ -3,15 +3,13 @@
     h1 {
         font-size: 1.5em;
         padding-top: 20px;
-        padding-right: 35px;
       }
       
-      h2 {
+    h2 {
         font-size: 1.1em;
       }
       
-
-      nav {
+    nav {
         margin: 0 auto;
         max-width: 900px;
       }
@@ -26,4 +24,3 @@
         font-size: 1.2em;
     }
 }
-

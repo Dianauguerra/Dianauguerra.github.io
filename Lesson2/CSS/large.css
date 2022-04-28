@@ -49,7 +49,10 @@ footer{
     margin: auto;
     padding: 2rem;
   }
-
+.logo{
+  max-width: 30%;
+  margin: auto;
+}
 
 .persona{
   max-width: 20%;
