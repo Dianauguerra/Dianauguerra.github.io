@@ -84,6 +84,8 @@ a:active {
 
 ul{
   list-style-type: none;
+  margin-bottom: 0.5rem;
+  padding: 0;
 }
 
 #header-font{
