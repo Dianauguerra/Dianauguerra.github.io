@@ -12,6 +12,7 @@ body{
   background-color: rgb(248, 242, 235);
   font-family: 'Poppins', sans-serif;;
   text-align: center;
+  margin:2rem;
 }
 
 
@@ -48,6 +49,12 @@ footer{
     margin: auto;
     padding: 2rem;
   }
+
+
+.persona{
+  max-width: 20%;
+
+}
 
 a:link {
   color: var(--accent1-color);
