@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Poppins:wght@100&display=swap');
+
+
 :root {
   --primary-color: #fffcf2;
   --secondary-color: #232e49;
@@ -31,3 +34,31 @@
     max-width: 100%;
     margin: auto;
   }
+
+
+  body{
+
+    font-family: 'Poppins', sans-serif;;
+
+}
+
+a:link {
+  color: var(--accent1-color);
+}
+
+/* visited link */
+a:visited {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--accent1-color);
+  background-color: var(--primary-color);
+}
+
+/* selected link */
+a:active {
+  color: var(--accent1-color);
+}
