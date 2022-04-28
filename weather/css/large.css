@@ -2,13 +2,20 @@
     header img {
         width: 180px;
     }
+    .navigation {
+        display: flex;
+    }
 
+    .navigation li:first-child{
+        display:none;
+    }
 
-
-
-
-
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
 
 
 }
+
     
