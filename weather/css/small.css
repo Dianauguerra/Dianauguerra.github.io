@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap");
+
+:root {
+    --primary-color: #fffcf2;
+    --secondary-color: #232e49;
+    --accent1-color: #FFB133;
+  }
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 130px;
+    height: auto;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+}
