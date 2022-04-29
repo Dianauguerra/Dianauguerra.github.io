@@ -8,13 +8,17 @@
 body{
     background-color: var(--primary-color);
     font-family: 'Akshar', sans-serif;
+    color: var(--secondary-color);
+    text-align: center;
+    margin:auto;
 }
-
+main{
+    margin: 10px;
+}
 header{
     padding: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
 
 }
 
@@ -23,6 +27,24 @@ header img{
     height: auto;
 }
 
+.map-contact{
+    display: block;
+    margin:0;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding:0.5rem;
+    padding-top: 1rem;
+}
+#map{
+    height: 100px;
+    width: auto;
+}
+
+picture{
+    margin:1rem;
+    text-align: center;
+
+}
 .headings{
     display: flex;
     flex-direction: column;
@@ -31,11 +53,27 @@ header img{
 h1, h2{
     font-family:  'Bebas Neue', cursive;
 }
+.cityname{
+    font-size: 40px;
+}
+
+.contentbox{
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--secondary-color);
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+a{
+    text-decoration: none;
+    color:var(--primary-color);
+}
 
 nav{
     margin: 0;
     background-color: var(--accent1-color);
     padding: 1rem;
+
 }
 .navigation{
     list-style: none;
@@ -53,4 +91,11 @@ nav{
 
 .responsive li {
     display: block;
+}
+
+footer{
+    background-color: var(--accent1-color);
+    padding:2em;
+    text-align: center;
+
 }
