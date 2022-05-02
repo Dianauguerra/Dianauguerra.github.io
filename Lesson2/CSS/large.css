@@ -6,6 +6,9 @@
   --secondary-color: #232e49;
   --accent1-color: #FFB133;
 }
+header{
+  color:black;
+}
 
 body{
 
@@ -18,6 +21,7 @@ body{
 footer{
   background-color: bisque;
   padding: 1rem;
+  color:black;
 }
 
 #header-example {
