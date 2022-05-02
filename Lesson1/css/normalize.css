@@ -60,19 +60,7 @@
   }
   
 
-  footer {
-    font-family: 'Akshar', sans-serif;
-    grid-row: 3/3;
-    color:rgb(221, 221, 221);
-    background-color:rgb(71, 93, 130);
-    border-radius: 10px;
-    padding: 1em;
-    padding-left: 40px;
-    align-items: center;
-    display: block;
-    text-align: center;
-    font-size:0.8em;
-  }
+
 
   /**
    * Render the `main` element consistently in IE.
@@ -141,8 +129,18 @@
   }
 
 
-  p{
-    color:#000000;
+  footer {
+    font-family: 'Akshar', sans-serif;
+    grid-row: 3/3;
+    color:rgb(221, 221, 221);
+    background-color:rgb(71, 93, 130);
+    border-radius: 10px;
+    padding: 1em;
+    padding-left: 40px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    font-size:0.8em;
   }
 
 
