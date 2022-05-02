@@ -35,17 +35,17 @@
   }
 
   nav a {
-    color: #747375;
+    color: white;
     font-size:1.1em;
   }
   nav a:link{
-    color:#313131;
+    color:white;;
   }
   nav a:visited {
     color:#5f7cc1;
   }
   nav a:hover {
-    color: #0d0d0d;
+    color: white;
   }
 
   .picture{
