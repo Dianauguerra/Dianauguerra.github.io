@@ -8,6 +8,7 @@
 }
 header{
   color:black;
+  background-color:rgb(214, 214, 214);
 }
 
 body{
@@ -19,7 +20,7 @@ body{
 }
 
 footer{
-  background-color: bisque;
+  background-color: rgb(214, 214, 214);
   padding: 1rem;
   color:black;
 }
