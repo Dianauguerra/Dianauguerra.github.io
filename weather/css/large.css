@@ -24,11 +24,25 @@
         position: relative;
     }
     
-    .stats {
+    .stats{
         position: absolute;
         bottom: 12px;
         left:10px;
         opacity: 0.8;
+
+    }
+
+    .forecast{
+        display: flex;
+        justify-content: center;
+        column-gap:5px;
+    }
+
+    .forecast div{
+        background-color: white;
+        padding: 1.2rem;
+        box-shadow: 5px 5px 2px #aaaaaa;
+        font-size: 14px;
 
     }
     .map-contact{
