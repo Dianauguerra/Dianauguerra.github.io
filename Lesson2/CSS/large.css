@@ -63,7 +63,7 @@ footer{
 }
 
 a:link {
-  color: var(--accent1-color);
+  color: black;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: var(--accent1-color);
+  color:blue;
   text-decoration: none;
 }
 
