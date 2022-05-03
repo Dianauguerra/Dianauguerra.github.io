@@ -51,11 +51,12 @@
 
     }
     .calendar img{
-        max-width: 80%;
+        display: inline;
+        max-width: 400px;
     }
     
     .map{
-        max-width: 20rem;
+        max-width: 35%;
         height: auto;
       }
     .map-and-contact{
