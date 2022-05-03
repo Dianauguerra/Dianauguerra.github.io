@@ -49,6 +49,17 @@
     .calendar img{
         max-width: 80%;
     }
+    
+    .map{
+        max-width: 300px;
+        height: auto;
+      }
+    .map-and-contact{
+          display:flex;
+          justify-content: center;
+          column-gap:10%;
+        }
+    /*
     .map-contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -58,6 +69,7 @@
         background-color: var(--secondary-color);
     
     }
+    */
 
     #contact{
         margin:1rem;

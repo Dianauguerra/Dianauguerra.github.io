@@ -36,8 +36,7 @@ header img{
     padding-top: 1rem;
 }
 #map{
-    height: 100px;
-    width: auto;
+    width: 300px;
 }
 
 picture{
@@ -98,6 +97,19 @@ h1, h2{
 .forecast-heading{
     display: none;
 }
+
+.map{
+    max-width: 250px;
+  }
+
+.map-and-contact{
+    justify-content: center;
+    column-gap:4rem;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    padding:1.5rem;
+    text-align: left;
+  }
 
 a{
     text-decoration: none;
