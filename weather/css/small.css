@@ -76,6 +76,10 @@ nav{
     color:#232e49;
 
 }
+
+nav a{
+    color:var(--secondary-color);
+}
 .navigation{
     list-style: none;
     text-align: center;
