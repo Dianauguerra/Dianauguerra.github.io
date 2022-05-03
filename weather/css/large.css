@@ -33,6 +33,10 @@
 
     }
 
+    .forecast-heading{
+        display:block;
+    }
+
     .forecast{
         display: flex;
         justify-content: center;
@@ -51,31 +55,14 @@
     }
     
     .map{
-        max-width: 300px;
+        max-width: 20rem;
         height: auto;
       }
     .map-and-contact{
           display:flex;
-          justify-content: center;
-          column-gap:10%;
+          column-gap:15%;
+          text-align: left;
         }
-    /*
-    .map-contact{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin:0;
-        color: var(--primary-color);
-        padding: 0 3rem;
-        background-color: var(--secondary-color);
-    
-    }
-    */
-
-    #contact{
-        margin:1rem;
-    }
-    
-
 }
 
     
