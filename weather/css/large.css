@@ -64,6 +64,10 @@
           column-gap:15%;
           text-align: left;
         }
+
+    .active{
+        text-decoration: underline;
+    }
 }
 
     
