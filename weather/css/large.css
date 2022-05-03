@@ -1,4 +1,8 @@
 @media only screen and (min-width: 32.5em){
+    main{
+        margin:auto 2rem;
+    }
+
     header img {
         width: 180px;
     }
@@ -15,7 +19,18 @@
         flex: 1 1 100%;
     }
 
+    .weather-summary-div{
+        margin: 10px auto;
+        position: relative;
+    }
+    
+    .stats {
+        position: absolute;
+        bottom: 12px;
+        left:10px;
+        opacity: 0.8;
 
+    }
     .map-contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
