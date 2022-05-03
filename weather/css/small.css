@@ -57,12 +57,24 @@ h1, h2{
     font-size: 40px;
 }
 
-.contentbox{
+.calendar{
     display: block;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     color: var(--secondary-color);
+    background-color:white;
     box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.calendar img{
+    display: none;
+}
+.calendar h2{
+    text-decoration: underline;
+}
+.calendar h3{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 #hero{
@@ -76,10 +88,14 @@ h1, h2{
     padding: 0.5rem 1.5rem;
     box-shadow: 0 0 30px #333;
     opacity: 1;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .forecast{
+    display: none;
+}
+
+.forecast-heading{
     display: none;
 }
 
