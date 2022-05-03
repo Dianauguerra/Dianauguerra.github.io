@@ -66,7 +66,7 @@ h1, h2{
 }
 a{
     text-decoration: none;
-    color:var(--secondary-color);
+    color:#232e49;
 }
 
 nav{
