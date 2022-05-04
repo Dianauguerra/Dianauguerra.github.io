@@ -5,6 +5,13 @@
     --secondary-color: #232e49;
     --accent1-color: #FFB133;
   }
+
+  #prestonbanner{
+    color:var(--primary-color);
+    background-color:var(--secondary-color) ;
+    padding:1.5rem;
+
+}
 body{
     background-color: var(--primary-color);
     font-family: 'Akshar', sans-serif;
