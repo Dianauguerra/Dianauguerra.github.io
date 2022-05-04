@@ -63,11 +63,12 @@
     
     .map{
         max-width: 20%;
+        min-width: 90px;
         height: auto;
       }
     .map-and-contact{
           display:flex;
-          column-gap:15%;
+          column-gap:5%;
           text-align: left;
         }
 
