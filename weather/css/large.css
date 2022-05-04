@@ -2,6 +2,11 @@
     main{
         margin:auto 2rem;
     }
+    body{
+        margin-left:5rem;
+        margin-right:5rem;
+        box-shadow: 5px 5px 5px 5px #ccc;
+    }
 
     header img {
         width: 180px;
@@ -23,6 +28,7 @@
         margin: 10px auto;
         position: relative;
     }
+
     
     .stats{
         position: absolute;
@@ -48,7 +54,7 @@
         padding: 1.2rem;
         box-shadow: 5px 5px 2px #aaaaaa;
         font-size: 14px;
-
+        
     }
     .calendar img{
         display: inline;

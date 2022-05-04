@@ -42,18 +42,21 @@ header img{
 picture{
     margin:1rem;
     text-align: center;
-
 }
 .headings{
     display: flex;
     flex-direction: column;
 }
-
 h1, h2{
     font-family:  'Bebas Neue', cursive;
 }
 .cityname{
     font-size: 40px;
+}
+
+#hero{
+    width: 100%;
+    max-height: 350px;
 }
 
 .calendar{
@@ -67,6 +70,7 @@ h1, h2{
 
 .calendar img{
     display: none;
+    width: 100%;
 }
 .calendar h2{
     text-decoration: underline;
@@ -75,12 +79,6 @@ h1, h2{
     font-size: 20px;
     font-weight: bolder;
 }
-
-#hero{
-    width: 100%;
-    max-height: 350px;
-}
-
 .stats{
     background: var(--accent1-color);
     border: 1px solid #000;
@@ -129,10 +127,6 @@ nav{
     padding: 1rem;
     color:#232e49;
 
-}
-
-nav a{
-    color:var(--secondary-color);
 }
 .navigation{
     list-style: none;
