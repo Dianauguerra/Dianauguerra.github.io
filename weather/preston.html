@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/small.css" />
+        <link rel="stylesheet" href="css/medium.css" />
         <link rel="stylesheet" href="css/large.css" />
         <script defer src="js/script.js"></script>
     </head>
@@ -38,14 +39,12 @@
         <main>
             <h2 class="cityname">Preston, Idaho</h2>
             <div class="weather-summary-div">
-                <img id="hero" src="images/600.jpeg" width="600px" height="auto" alt="hero-image"
-                    srcset="images/hero300.jpg 300w,
-                            images/hero600.jpg 600w, 
-                            images/hero900.jpeg 900w"
-                            sizes="(max-width: 300px) 300px,
-                                    (max-width: 600px) 600px,
-                                    (max-width: 900px) 900px,
-                                    1440px">
+                <picture >
+                    <source srcset="images/hero600.jpeg" media="(min-width: 401px) and (max-width: 899px)">
+                        <source id="hero" srcset="images/hero900.jpeg" media="(min-width: 900px)">
+                    <img src="images/hero400.jpeg" alt="hero">
+
+                </picture>
                 <section class="stats">
                     <h2>Weather Summary:</h2>
                     </p>Precipitation: 10%</p>
