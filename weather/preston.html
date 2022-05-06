@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/medium.css" />
         <link rel="stylesheet" href="css/large.css" />
         <script defer src="js/script.js"></script>
+        <script defer src="js/windchill.js"></script>
     </head>
     <body>
         <div id="prestonbanner"><p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
@@ -46,10 +47,12 @@
 
                 </picture>
                 <section class="stats">
-                    <h2>Weather Summary:</h2>
-                    </p>Precipitation: 10%</p>
+                    <h2 class="weathersummary">Weather Summary:</h2>
+                    <p>Currently: <span id="temperature">38</span>°F | Broken Clouds</p>
+                    <p>Wind Chill: <span id="windchill"></span>°F</p>
+                    <p>High:41°F</p>
                     </p>Humidity: 93%</p>
-                    </p>Wind: 8 mph</p>
+                    <p>Wind Speed: <span id="windspeed">5</span> mph</p>
                 </section>  
             </div>
             <h2 class="forecast-heading">5 Day Forecast</h2>
