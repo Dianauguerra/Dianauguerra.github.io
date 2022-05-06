@@ -38,7 +38,14 @@
         <main>
             <h2 class="cityname">Preston, Idaho</h2>
             <div class="weather-summary-div">
-                <img id="hero" src="images/heroimage.jpg" width="800px" height="auto" alt="hero-image">
+                <img id="hero" src="images/600.jpeg" width="600px" height="auto" alt="hero-image"
+                    srcset="images/hero300.jpg 300w,
+                            images/hero600.jpg 600w, 
+                            images/hero900.jpeg 900w"
+                            sizes="(max-width: 300px) 300px,
+                                    (max-width: 600px) 600px,
+                                    (max-width: 900px) 900px,
+                                    1440px">
                 <section class="stats">
                     <h2>Weather Summary:</h2>
                     </p>Precipitation: 10%</p>
