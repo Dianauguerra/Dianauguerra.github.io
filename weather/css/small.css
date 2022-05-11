@@ -147,6 +147,10 @@ main div.weather-summary-div img{
 
 }
 
+#weathergallery div{
+    margin-bottom: 2rem;
+}
+
 img[data-src] {
     filter: blur(0.7em);
   }
@@ -155,6 +159,8 @@ img {
 filter: blur(0em);
 transition: filter 0.5s;
 }
+
+
 
 /*//////////////////////*/
 
