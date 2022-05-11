@@ -85,4 +85,21 @@
         text-decoration: underline;
     }
 
+    /*/// Weather Gallery ///*/
+
+    #weathergallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #weathergallery div{
+        margin:1rem;
+    }
+
+    #weathergallery img{
+        width: 100%;
+        height: 85%;
+    }
+
+    /*//////////////////////*/
+
 }

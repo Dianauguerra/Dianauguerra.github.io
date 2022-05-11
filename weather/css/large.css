@@ -10,4 +10,20 @@
         
     }
 
+    #weathergallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #weathergallery div{
+        box-shadow: 2px 5px 5px #c2c1c1;
+        margin: 1rem;
+        padding: 0;
+        height: 500px;
+    }
+
+    #weathergallery div:hover {
+            box-shadow: 0 0 11px 
+    }
+
 }

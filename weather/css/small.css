@@ -32,10 +32,31 @@ header img{
     width: 130px;
     height: auto;
 }
+nav{
+    margin: 0;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    color:#232e49;
 
-#map{
-    width: 300px;
 }
+.navigation{
+    list-style: none;
+    text-align: center;
+    padding:0;
+
+}
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li{
+    display:none;
+}
+
+.responsive li {
+    display: block;
+}
+
 
 picture{
     margin:1rem;
@@ -118,6 +139,25 @@ main div.weather-summary-div img{
     margin-top:1rem;
   }
 
+/*/// Weather Gallery ///*/
+
+#weathergallery{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
+img[data-src] {
+    filter: blur(0.7em);
+  }
+    
+img {
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+/*//////////////////////*/
+
 a{
     text-decoration: none;
     color:#232e49;
@@ -127,30 +167,10 @@ li:hover {
     font-size: large;
 }
 
-nav{
-    margin: 0;
-    background-color: var(--accent1-color);
-    padding: 1rem;
-    color:#232e49;
-
-}
-.navigation{
-    list-style: none;
-    text-align: center;
-    padding:0;
-
-}
-.navigation li:first-child {
-    display: block;
+#map{
+    width: 300px;
 }
 
-.navigation li{
-    display:none;
-}
-
-.responsive li {
-    display: block;
-}
 
 footer{
     background-color: var(--accent1-color);
