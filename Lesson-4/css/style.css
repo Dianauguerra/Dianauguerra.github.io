@@ -1,0 +1,31 @@
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(120, 110, 133);
+  }
+  header, h1{
+    background-color: rgb(107, 98, 119);
+
+  }
+
+  img[data-src] {
+    filter: blur(0.7em);
+  }
+    
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  footer{
+    background-color: rgb(107, 98, 119);
+    color:aliceblue;
+  }
+
+  a{
+    text-decoration: none;
+    color:aliceblue;
+  }
+

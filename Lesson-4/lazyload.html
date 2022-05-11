@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lesson4: Lazy Image Loader by Diana Urbina" />
+    <meta name="author" content="Diana Urbina"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <title>Lazy Load</title>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header><h1>Progressive Loading of Images</h1></header>
+    <main>
+        <h1>Lazy Image Loader</h1>
+        <picture>
+        <img
+            src="images/placeholder-image.webp"
+            data-src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="cat1"
+            width="300"
+            height="400"
+
+        />
+        </picture>
+        <br>
+        <picture>
+        <img
+            src="images/placeholder-image.webp"
+            data-src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+            alt="cat2"
+            width="300"
+            height="400"
+
+        />
+        </picture>
+        <br>
+        <picture>
+        <img
+            src="images/placeholder.png"
+            data-src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+            alt="cat3"
+            loading="lazy"
+            width="300"
+            height="400"
+        />
+        </picture>
+        <br>
+        <picture>
+        <img
+            src="images/placeholder-image.webp"
+            data-src="https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="cat4"
+            loading="lazy"
+            width="300"
+            height="400"
+        />
+        </picture>
+        <br>
+        <picture>
+        <img
+            src="images/placeholder-image.webp"
+            data-src="https://images.unsplash.com/photo-1536590158209-e9d615d525e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="cat5"
+            loading="lazy"
+            width="300"
+            height="400"
+        />
+        </picture>
+        <br>
+        <picture>
+        <img
+            src="images/placeholder-image.webp"
+            data-src="https://images.unsplash.com/photo-1506891536236-3e07892564b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+            alt="cat6"
+            loading="lazy"
+            width="300"
+            height="400"
+        />
+        </picture>
+        </main>
+        <footer>
+        <p>
+            &copy;<span id="year"></span>  |
+            <a href="https://lan21005.github.io/">Diana Urbina</a> | VA, USA
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+        <p>Last Modified:</p>
+        <p id="lastMod"></p>
+        </footer>
+    </body>
+    </html>
