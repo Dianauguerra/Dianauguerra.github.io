@@ -229,6 +229,7 @@ form label.sbs {
 
 #comments{
     width: 97%;
+    max-width: 600px;
     height: 100px;
     color:#555;
 }
@@ -248,4 +249,11 @@ form input.submitBtn {
     width: 96%;
     position:center;
     
+}
+
+#thanks{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    color: var(--primary-color);
+    margin: 2rem;
 }
