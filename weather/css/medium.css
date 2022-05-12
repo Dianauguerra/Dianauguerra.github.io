@@ -102,4 +102,14 @@
 
     /*//////////////////////*/
 
-}
+    /*/-----------FORM-----------/*/
+    form label.top, form div {
+        font-size: 1rem;
+
+    }
+
+    form label.top input, form label.top select{
+        padding: 0.3rem;
+        
+
+}}
