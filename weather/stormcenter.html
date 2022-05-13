@@ -33,7 +33,7 @@
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li class="active"><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
         <main>
@@ -41,10 +41,10 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>User Information</legend>
-                    <label class="top">Full Name* <input type="text" name="name" pattern=".{5,}" required></label>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="^.* .*$" required></label>
                     <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                     <label class="top">Phone* <input type="tel" name="phone" required></label>
-                    <label class="top">Zip Code* <input type="number" name="zipcode" pattern=".{5,5}" required></label>
+                    <label class="top">Zip Code* <input type="number" name="zipcode" pattern="[2-9]{1}" maxlength="1" required></label>
                 </fieldset>
 
                 <fieldset>
