@@ -38,6 +38,10 @@ h2, h1 {
     font-weight: bold;
 }
 
+h1{
+    font-size: 3rem;
+}
+
 p{
     font-family: 'Lato', sans-serif;
     color: var(--font-color);
