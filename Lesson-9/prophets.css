@@ -69,14 +69,14 @@ section img{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
 /* Medium viewport */
-@media (min-width: 600px) { /* 520px */
+@media (min-width: 600px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* Large viewport */
-@media (min-width: 900px) { /* 960px */ 
+@media (min-width: 900px) { 
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
