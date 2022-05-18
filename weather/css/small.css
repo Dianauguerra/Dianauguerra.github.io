@@ -103,6 +103,7 @@ main div.weather-summary-div img{
     color: var(--secondary-color);
     background-color:white;
     box-shadow: 5px 5px 5px 5px #ccc;
+    text-align: center;
 }
 .calendar img{
     display: none;
