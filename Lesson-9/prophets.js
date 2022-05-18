@@ -13,32 +13,36 @@ fetch(requestURL)
 function listprophets(prophet) {
 
   //methods//
-  const name = prophet.name; 
-  const lastname = prophet.lastname;
-  const birthdate = prophet.birthdate;
-  const birthplace = prophet.birthplace;
+  let name = prophet.name; 
+  let lastname = prophet.lastname;
+  let birthdate = prophet.birthdate;
+  let birthplace = prophet.birthplace;
+  let order = prophet.order;
 
   //elements//
   let card = document.createElement("section");
   let h2 = document.createElement("h2");
-  let portrait = document.createElement("img");
+  let img = document.createElement("img");
   let birthcontent = document.createElement("p");
   let birthplaceontent = document.createElement("p");
 
-
-  //to display//
+  //content to display//
   h2.textContent = `${name} ${lastname}`;
+
+  //inner HTML//
   birthplaceontent.innerHTML = `<strong>Place of Birth:</strong> ${birthplace}`;
   birthcontent.innerHTML = `<strong>Date of Birth:</strong> ${birthdate}`;
-  portrait.setAttribute("src", prophet.imageurl);
-
+  
+  //attributes//
+  img.setAttribute("src", prophet.imageurl);
+  img.setAttribute('alt', name + " " + lastname + " - " + order);
 
   //appending children of cards div//
-  document.querySelector(".cards").appendChild(card);
-  document.querySelector(".cards").appendChild(h2);
-  document.querySelector(".cards").appendChild(birthcontent);
-  document.querySelector(".cards").appendChild(birthplaceontent);
-  document.querySelector(".cards").appendChild(portrait);
 
+  card.appendChild(h2);
+  card.appendChild(birthcontent);
+  card.appendChild(birthplaceontent);
+  card.appendChild(img);
+  document.querySelector(".cards").appendChild(card);
 
 }
