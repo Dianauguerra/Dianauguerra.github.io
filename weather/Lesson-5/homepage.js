@@ -38,7 +38,7 @@ function listtown(town) {
   //inner HTML//
   year.innerHTML = `<strong>Year Founded:</strong> ${town.yearFounded}`;
   currentPopulation.innerHTML = `<strong>Current Population:</strong> ${town.currentPopulation}`;
-  averageRainFall.innerHTML = `<strong>Average Rainfall:</strong> ${town.averageRainFall}`;
+  averageRainFall.innerHTML = `<strong>Average Rainfall:</strong> ${town.averageRainfall}`;
   events.innerHTML = `<strong>Events :</strong> ${town.events}`;
   motto.innerHTML = `<i>${ town.motto}`;
   
@@ -55,7 +55,9 @@ function listtown(town) {
   statsdiv.appendChild(currentPopulation);
   statsdiv.appendChild(averageRainFall);
   statsdiv.appendChild(events);
+
   imgdiv.appendChild(img);
+  
   card.appendChild(imgdiv);
   card.appendChild(statsdiv);
   document.querySelector(".cards").appendChild(card);
