@@ -19,22 +19,27 @@ function listtown(town) {
   let motto= document.createElement("p");
   let year = document.createElement("p");
   let currentPopulation = document.createElement("p");
+  let averageRainFall = document.createElement("p");
+  let events = document.createElement("p");
   let statsdiv = document.createElement("div");
   let imgdiv = document.createElement("div");
   let width = "400"
 
+  //classnames//
   statsdiv.className = "statsdiv";
   imgdiv.className = "imgdiv";
-
 
   //content to display//
   h2.textContent = town.name;
   year.textContent = town.yearFounded;
+
   
 
   //inner HTML//
   year.innerHTML = `<strong>Year Founded:</strong> ${town.yearFounded}`;
   currentPopulation.innerHTML = `<strong>Current Population:</strong> ${town.currentPopulation}`;
+  averageRainFall.innerHTML = `<strong>Average Rainfall:</strong> ${town.averageRainFall}`;
+  events.innerHTML = `<strong>Events :</strong> ${town.events}`;
   motto.innerHTML = `<i>${ town.motto}`;
   
   //attributes//
@@ -44,17 +49,12 @@ function listtown(town) {
 
   //appending children of cards div//
 
-  // card.appendChild(h2);
-  // card.appendChild(motto);
-  // card.appendChild(year);
-  // card.appendChild(currentPopulation);
-  // card.appendChild(img);
-  // document.querySelector(".cards").appendChild(card);
-
   statsdiv.appendChild(h2);
   statsdiv.appendChild(motto);
   statsdiv.appendChild(year);
   statsdiv.appendChild(currentPopulation);
+  statsdiv.appendChild(averageRainFall);
+  statsdiv.appendChild(events);
   imgdiv.appendChild(img);
   card.appendChild(imgdiv);
   card.appendChild(statsdiv);

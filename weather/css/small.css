@@ -267,8 +267,21 @@ form input.submitBtn {
 
 }
 
+
 .cards section{
     box-shadow: 5px 5px 5px 5px #ccc;
     margin:1rem;
     padding: 1rem;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.statsdiv{
+    font-size: 0.8rem;
+}
+
+.statsdiv h2{
+    font-size: 2rem;
 }
