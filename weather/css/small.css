@@ -258,3 +258,17 @@ form input.submitBtn {
     color: var(--primary-color);
     margin: 2rem;
 }
+
+/*-------homepage-------*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+
+}
+
+.cards section{
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin:1rem;
+    padding: 1rem;
+}

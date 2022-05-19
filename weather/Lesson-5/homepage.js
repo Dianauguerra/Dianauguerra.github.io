@@ -19,7 +19,13 @@ function listtown(town) {
   let motto= document.createElement("p");
   let year = document.createElement("p");
   let currentPopulation = document.createElement("p");
+  let statsdiv = document.createElement("div");
+  let imgdiv = document.createElement("div");
   let width = "400"
+
+  statsdiv.className = "statsdiv";
+  imgdiv.className = "imgdiv";
+
 
   //content to display//
   h2.textContent = town.name;
@@ -38,11 +44,20 @@ function listtown(town) {
 
   //appending children of cards div//
 
-  card.appendChild(h2);
-  card.appendChild(motto);
-  card.appendChild(year);
-  card.appendChild(currentPopulation);
-  card.appendChild(img);
+  // card.appendChild(h2);
+  // card.appendChild(motto);
+  // card.appendChild(year);
+  // card.appendChild(currentPopulation);
+  // card.appendChild(img);
+  // document.querySelector(".cards").appendChild(card);
+
+  statsdiv.appendChild(h2);
+  statsdiv.appendChild(motto);
+  statsdiv.appendChild(year);
+  statsdiv.appendChild(currentPopulation);
+  imgdiv.appendChild(img);
+  card.appendChild(imgdiv);
+  card.appendChild(statsdiv);
   document.querySelector(".cards").appendChild(card);
 
 }

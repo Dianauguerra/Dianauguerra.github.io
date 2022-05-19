@@ -26,4 +26,22 @@
             box-shadow: 0 0 11px 
     }
 
+    /*-----HOMEPAGHE-----*/
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards section{
+        display: block;
+    }
+
+
+    .cards img{
+        width: 90%;
+    }
+    .statsdiv{
+        font-size: 1rem;
+    }
+
+
 }

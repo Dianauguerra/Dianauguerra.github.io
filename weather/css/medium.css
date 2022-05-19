@@ -99,7 +99,7 @@
         height: 85%;
     }
 
-    /*/-----------FORM-----------/*/
+    /*-----------FORM-----------*/
     form label.top, form div {
         font-size: 1rem;
 
@@ -116,5 +116,36 @@
         max-width: 10rem;
     }
         
+    /*-----HOMEPAGHE-----*/
+    .cards {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .cards img{
+        width: 80%;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .statsdiv{
+        grid-column: 1/2;
+        grid-row: 1/1;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .imgdiv{
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+
+
+
 
 }
