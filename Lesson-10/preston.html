@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Preston page by Diana Urbina Guerra"/>
+        <meta name="author" content="Diana Urbina Guerra" />
+        <title>Upper The Weather - Preston, Idaho</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../weather/css/small.css" />
+        <link rel="stylesheet" href="../weather/css/medium.css" />
+        <link rel="stylesheet" href="../weather/css/large.css" />
+        <script defer src="../weather/js/script.js"></script>
+        <script defer src="../weather/js/windchill.js"></script>
+    </head>
+    <body>
+        <div id="prestonbanner"><p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p></div>
+        <header>
+            <picture>
+                <img src="../weather/images/sunrise.png" alt="logo">
+            </picture>
+            <section class="headings">
+                <h1>Upper The Weather</h1>
+                <div class="motto">Up, out, and about</div>
+            </section>
+        </header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">Menu</a></li>
+                <li><a href="Lesson-5/index.html">Home</a></li>
+                <li class="active"><a href="#">Preston Idaho</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="cityname">Preston, Idaho</h2>
+            <div class="weather-summary-div">
+                <picture >
+                    <source srcset="../weather/images/hero600.jpeg" media="(min-width: 401px) and (max-width: 899px)">
+                        <source id="hero" srcset="../weather/images/hero900.jpeg" media="(min-width: 900px)">
+                    <img src="../weather/images/hero400.jpeg" alt="hero">
+                </picture>
+                <section class="stats">
+                    <h2 class="weathersummary">Weather Summary:</h2>
+                    <p>Currently: <span id="temperature"></span>°F |<span id="description"></span></p>
+                    <p>Wind Chill: <span id="windchill"></span>°F</p>
+                    <p>High:41°F</p>
+                    <p>Humidity: 93%</p>
+                    <p>Wind Speed: <span id="windspeed">5</span> mph</p>
+                </section>  
+            </div>
+            <h2 class="forecast-heading">5 Day Forecast</h2>
+            <div class="forecast">
+                    <div class="day1">
+                        <h3>Wed</h3> 
+                        <img id="icon1">
+                        <p><span id="1"></span> °F</p>
+                    </div>  
+                    <div class="day2">
+                        <h3>Wed</h3> 
+                        <img id="icon2">
+                        <p><span id="2"></span> °F</p>
+                    </div>  
+                    <div class="day3">
+                        <h3>Wed</h3> 
+                        <img id="icon3">
+                        <p><span id="3"></span> °F</p>
+                    </div>  
+                    <div class="day4">
+                        <h3>Wed</h3> 
+                        <img id="icon4">
+                        <p><span id="4"></span> °F</p>
+                    </div>      
+                    <div class="day5">
+                        <h3>Wed</h3> 
+                        <img id="icon5">
+                        <p><span id="5"></span> °F</p>
+                    </div>                  
+            </div>
+            <div class="calendar">
+                <h2>Community Calendar</h2>
+                <img src="../weather/images/calendar.jpeg" width="400" alt="calendar image">
+                <h3>Tuesdays</h3>
+                <p>Story Time: 11 a.m., Franklin City Building</p>
+                <h3>Wednesdays</h3>
+                <p>Knit Wits: 11 a.m., Presbyterian Church, 206 East 200 North, Preston</p>
+                <p>Special Friends Club, 12:45 p.m., for all adults who have special needs, directed by library staff member Diane Steadman.</p>
+                <p>Every week has a different theme with books and STEM activities along with sensory and learning materials.</p>
+                <p>MGM Club: 4 p.m., Larsen-Sant Library</p>
+                <h3>Thursdays</h3>
+                <p>Story Time, 11 a.m., and 2 p.m., Larsen-Sant Library
+                <p>Adult Institute last class, 7 p.m., 2 Samuel 1-12/2 Samuel 13-24</p>
+                <p>BFF Club Meeting: 4 p.m., Larsen-Sant Library </p>          
+            </div>
+            <div class="map-and-contact">
+                <img class="map" src="../weather/images/prestonmap.png" width="250" alt="map">
+                <section class="contact">
+                  <h2>Contact Info</h2>
+                    <p>Email: UpperTheWeather@gmail.com</p>
+                    <p>Phone Number: (123)456-7890</p>
+                    <a href="https://www.facebook.com/"><img src="../weather/images/fb.png" width="32"  alt="facebook icon"></a>
+                    <a href="https://twitter.com/?lang=en"><img src="../weather/images/twitter.png" width="32" alt="twitter icon"></a>
+                    <a href="https://www.instagram.com/?hl=en"><img src="../weather/images/insta.png" width="32"  alt="insta icon"></a>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>
+                &copy;<span id="year"></span> |
+                <a href="https://github.com/Dianauguerra/Dianauguerra.github.io">Diana Urbina Guerra</a> | VA, USA
+                |
+                <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </p>
+            <p>Last Modified:</p>
+            <p id="lastMod"></p>
+        </footer>
+    </body>
+
