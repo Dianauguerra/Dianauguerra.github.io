@@ -83,7 +83,6 @@ fetch(apiURL)
       document.getElementById("2").textContent = temp;
       document.getElementById("icon2").setAttribute("src",imgsource);
       document.getElementById("icon2").setAttribute("alt",imgalt);
-      document.getElementById("icon2").setAttribute("width", 50);
     };
     if (list[i].dt_txt == (third+ " " + "18:00:00")){
       let temp = list[i].main.temp;
@@ -93,7 +92,6 @@ fetch(apiURL)
       document.getElementById("3").textContent = temp;
       document.getElementById("icon3").setAttribute("src",imgsource);
       document.getElementById("icon3").setAttribute("alt",imgalt);
-      document.getElementById("icon3").setAttribute("width", 50);
     };
 
     if (list[i].dt_txt == (forth+ " " + "18:00:00")){
@@ -104,7 +102,6 @@ fetch(apiURL)
       document.getElementById("4").textContent = temp;
       document.getElementById("icon4").setAttribute("src",imgsource);
       document.getElementById("icon4").setAttribute("alt",imgalt);
-      document.getElementById("icon4").setAttribute("width", 50);
     
     };
 
@@ -116,7 +113,6 @@ fetch(apiURL)
       document.getElementById("5").textContent = temp;
       document.getElementById("icon5").setAttribute("src",imgsource);
       document.getElementById("icon5").setAttribute("alt",imgalt);
-      document.getElementById("icon5").setAttribute("width", 50);
     };
 
   }});
