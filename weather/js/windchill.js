@@ -27,7 +27,7 @@ fetch(apiURL)
 //-----------------5 DAY FORECAST-------------------------//
   //day 1/
   var today = new Date();
-  var dd = String(today.getDate()+1).padStart(2, '0');
+  var dd = String(today.getDate()+0).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0'); 
   var yyyy = today.getFullYear();
   
@@ -35,22 +35,22 @@ fetch(apiURL)
 
   //day 2//
   var today = new Date();
-  var dd = String(today.getDate()+2).padStart(2, '0');
+  var dd = String(today.getDate()+1).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0'); 
   var yyyy = today.getFullYear();
   
   const second = yyyy + "-" + mm + "-" + dd;
 
   //day 3//
-  var dd = String(today.getDate()+3).padStart(2, '0');
+  var dd = String(today.getDate()+2).padStart(2, '0');
   const third = yyyy + "-" + mm + "-" + dd;
 
   //day 4//
-  var dd = String(today.getDate()+4).padStart(2, '0');
+  var dd = String(today.getDate()+3).padStart(2, '0');
   const forth = yyyy + "-" + mm + "-" + dd;
 
   //day 5//
-  var dd = String(today.getDate()+5).padStart(2, '0');
+  var dd = String(today.getDate()+4).padStart(2, '0');
   const fifth = yyyy + "-" + mm + "-" + dd;
   
   // JSON 5 DAY FORECAST //
@@ -73,6 +73,7 @@ fetch(apiURL)
       document.getElementById("icon1").setAttribute("src",imgsource);
       document.getElementById("icon1").setAttribute("alt",imgalt);
       document.getElementById("icon1").setAttribute("width", 50);
+      console.log(`icon1 ${icon}`)
     };
 
     if (list[i].dt_txt == (second+ " " + "18:00:00")){
@@ -83,6 +84,7 @@ fetch(apiURL)
       document.getElementById("2").textContent = temp;
       document.getElementById("icon2").setAttribute("src",imgsource);
       document.getElementById("icon2").setAttribute("alt",imgalt);
+      console.log(`icon2 ${icon}`)
     };
     if (list[i].dt_txt == (third+ " " + "18:00:00")){
       let temp = list[i].main.temp;
@@ -92,6 +94,7 @@ fetch(apiURL)
       document.getElementById("3").textContent = temp;
       document.getElementById("icon3").setAttribute("src",imgsource);
       document.getElementById("icon3").setAttribute("alt",imgalt);
+      console.log(`icon3 ${icon}`)
     };
 
     if (list[i].dt_txt == (forth+ " " + "18:00:00")){
@@ -102,6 +105,7 @@ fetch(apiURL)
       document.getElementById("4").textContent = temp;
       document.getElementById("icon4").setAttribute("src",imgsource);
       document.getElementById("icon4").setAttribute("alt",imgalt);
+      console.log(`icon4 ${icon}`)
     
     };
 
@@ -113,6 +117,8 @@ fetch(apiURL)
       document.getElementById("5").textContent = temp;
       document.getElementById("icon5").setAttribute("src",imgsource);
       document.getElementById("icon5").setAttribute("alt",imgalt);
+      console.log(`icon5 ${icon}`)
+
     };
 
   }});
