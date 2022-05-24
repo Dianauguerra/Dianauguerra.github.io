@@ -83,7 +83,7 @@ fetch(apiURL)
 
   
   // JSON 5 DAY FORECAST //
-  const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
+  const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
   fetch(forecastApiURL)
   .then((response) => response.json())
   
