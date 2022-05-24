@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap");
+
+:root {
+    --primary-color: #fffcf2;
+    --secondary-color: #232e49;
+    --accent1-color: #FFB133;
+  }
+
+#prestonbanner{
+    color:var(--primary-color);
+    background-color:var(--secondary-color) ;
+    padding:1.5rem;
+
+}
+body{
+    background-color: var(--primary-color);
+    font-family: 'Akshar', sans-serif;
+    color: var(--secondary-color);
+    margin:auto;
+}
+p{
+    text-align: center;
+}
+main{
+    margin: 10px;
+    text-align: center;
+}
+header{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 130px;
+    height: auto;
+}
+nav{
+    margin: 0;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    color:#232e49;
+
+}
+.navigation{
+    list-style: none;
+    text-align: center;
+    padding:0;
+
+}
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li{
+    display:none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+picture{
+    margin:1rem;
+    text-align: center;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+}
+h1, h2{
+    font-family:  'Bebas Neue', cursive;
+}
+.cityname{
+    font-size: 40px;
+}
+
+/*Hero*/
+main div.weather-summary-div{
+    width: 90%;
+    margin: 0 ;
+}
+
+main div.weather-summary-div img{
+    width: 100%;
+    margin: 0 0 0 2%;
+}
+
+.stats{
+    background: var(--accent1-color);
+    border: 1px solid #000;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: 1;
+    font-size: 18px;
+    margin-left: 3rem;
+}
+/*//////////*/
+.calendar{
+    display: block;
+    margin: 1rem;
+    padding: 2rem;
+    color: var(--secondary-color);
+    background-color:white;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    text-align: center;
+}
+.calendar img{
+    display: none;
+    width: 100%;
+}
+.calendar h2{
+    text-decoration: underline;
+}
+.calendar h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.forecast{
+    display: none;
+}
+
+.forecast-heading{
+    display: none;
+}
+
+.map{
+    max-width: 250px;
+  }
+.contact img{
+    padding: 2px;
+}
+.map-and-contact{
+    justify-content: center;
+    align-items: center;
+    column-gap:4rem;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    padding:1.5rem;
+    margin-top:1rem;
+  }
+
+/*/// Weather Gallery ///*/
+
+#weathergallery{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
+#weathergallery div{
+    margin-bottom: 2rem;
+}
+
+img[data-src] {
+    filter: blur(0.7em);
+  }
+    
+img {
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+
+
+/*//////////////////////*/
+
+a{
+    text-decoration: none;
+    color:#232e49;
+}
+
+li:hover {
+    font-size: large;
+}
+
+#map{
+    width: 300px;
+}
+
+
+footer{
+    background-color: var(--accent1-color);
+    padding:2em;
+    text-align: center;
+    color:#232e49;
+
+}
+/*--------- FORM --------*/
+form fieldset {
+    margin:2rem 0;
+    border: 1px solid #232e49;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+form legend {
+    color:var(--secondary-color);
+    margin: 0 1rem;
+    padding:  0 0.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    color:var(--secondary-color);
+    font-size:.8rem;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 30rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .5rem 0;
+    color: #555;
+}
+
+#comments{
+    width: 97%;
+    max-width: 600px;
+    height: 100px;
+    color:#555;
+}
+
+#dangerlevel{
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color:var(--accent1-color);
+    color:var(--primary-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    
+}
+
+#thanks{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    color: var(--primary-color);
+    margin: 2rem;
+}
+
+/*-------homepage-------*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+
+}
+
+
+.cards section{
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin:1rem;
+    padding: 1rem;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.statsdiv{
+    font-size: 0.8rem;
+}
+
+.statsdiv h2{
+    font-size: 2rem;
+}
