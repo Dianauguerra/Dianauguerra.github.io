@@ -96,7 +96,7 @@ main div.weather-summary-div img{
     font-size: 18px;
     margin-left: 3rem;
 }
-/*//////////*/
+/*CALENDAR*/
 .calendar{
     display: block;
     margin: 1rem;
@@ -118,7 +118,7 @@ main div.weather-summary-div img{
     font-weight: bolder;
 }
 
-
+/*FORECAST*/
 .forecast{
     display: none;
 }

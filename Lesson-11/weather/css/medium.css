@@ -46,6 +46,7 @@
         text-decoration: underline ;
     }
 
+    
     .forecast-heading{
         display:block;
     }
@@ -62,7 +63,8 @@
         box-shadow: 5px 5px 2px #aaaaaa;
         font-size: 14px;
         width: 5rem;
-        
+    
+  
     }
     .calendar img{
         display: inline;
@@ -116,7 +118,7 @@
         max-width: 10rem;
     }
         
-    /*-----HOMEPAGHE-----*/
+    /*-----HOMEPAGE-----*/
     .cards {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
