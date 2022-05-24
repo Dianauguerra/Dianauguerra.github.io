@@ -25,34 +25,31 @@ fetch(apiURL)
  
 });
 //-----------------5 DAY FORECAST-------------------------//
-  //day 1/
+
+  //day 1//
   var today = new Date();
-  var dd = String(today.getDate()).padStart(2, '0');
+  var dd = String(today.getDate()+1).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0'); 
   var yyyy = today.getFullYear();
   
   const first = yyyy + "-" + mm + "-" + dd;
 
   //day 2//
-  var today = new Date();
-  var dd = String(today.getDate()+1).padStart(2, '0');
-  var mm = String(today.getMonth() + 1).padStart(2, '0'); 
-  var yyyy = today.getFullYear();
-  
+  var dd = String(today.getDate()+2).padStart(2, '0');
   const second = yyyy + "-" + mm + "-" + dd;
 
   //day 3//
-  var dd = String(today.getDate()+2).padStart(2, '0');
+  var dd = String(today.getDate()+3).padStart(2, '0');
   const third = yyyy + "-" + mm + "-" + dd;
 
   //day 4//
-  var dd = String(today.getDate()+3).padStart(2, '0');
+  var dd = String(today.getDate()+4).padStart(2, '0');
   const forth = yyyy + "-" + mm + "-" + dd;
 
   //day 5//
-  var dd = String(today.getDate()+4).padStart(2, '0');
+  var dd = String(today.getDate()+5).padStart(2, '0');
   const fifth = yyyy + "-" + mm + "-" + dd;
-
+  
   // WEEKDAYS  //
   const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
@@ -148,3 +145,5 @@ fetch(apiURL)
       
 
     
+
+            
