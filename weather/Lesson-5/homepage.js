@@ -7,10 +7,16 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const towns = jsonObject["towns"];
-    towns.forEach(listtown);
+    const sodasprings = towns[0];
+    const fishhaven = towns[2];
+    const preston = towns[6];
+    listtown(sodasprings, "img1", "data1");
+    listtown(preston, "img2", "data2");
+    listtown(fishhaven, "img3", "data3");
+    // towns.forEach(listtown);
   });
 
-function listtown(town) {
+function listtown(town, imgorder, dataorder) {
 
   //elements//
   let card = document.createElement("section");
@@ -26,14 +32,12 @@ function listtown(town) {
   let width = "400"
 
   //classnames//
-  statsdiv.className = "statsdiv";
-  imgdiv.className = "imgdiv";
+  statsdiv.className = imgorder;
+  imgdiv.className = dataorder;
 
   //content to display//
   h2.textContent = town.name;
   year.textContent = town.yearFounded;
-
-  
 
   //inner HTML//
   year.innerHTML = `<strong>Year Founded:</strong> ${town.yearFounded}`;
@@ -45,8 +49,7 @@ function listtown(town) {
   //attributes//
   img.setAttribute("src", town.photo);
   img.setAttribute("width", width );
-  img.setAttribute('alt', town.name + "-" + town.order);
-
+  img.setAttribute("alt", town.name);
   //appending children of cards div//
 
   statsdiv.appendChild(h2);
