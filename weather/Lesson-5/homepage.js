@@ -29,7 +29,7 @@ function listtown(town, imgorder, dataorder) {
   let events = document.createElement("p");
   let statsdiv = document.createElement("div");
   let imgdiv = document.createElement("div");
-  let width = "400"
+  let width = "400";
 
   //classnames//
   statsdiv.className = imgorder;
