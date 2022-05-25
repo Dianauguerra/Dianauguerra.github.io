@@ -285,3 +285,18 @@ form input.submitBtn {
 .statsdiv h2{
     font-size: 2rem;
 }
+
+/*--------EVENTS---------*/
+
+#events{
+    background: var(--accent1-color);
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 5% 30%;
+    padding: 1rem;
+}
+
+#events h4{
+    text-decoration: underline;
+    font-size: 1.2rem;
+}

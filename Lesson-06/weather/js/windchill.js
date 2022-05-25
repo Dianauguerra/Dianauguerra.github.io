@@ -102,7 +102,7 @@ fetch(apiURL)
       document.getElementById("icon1").setAttribute("src",imgsource);
       document.getElementById("icon1").setAttribute("alt",imgalt);
       document.getElementById("icon1").setAttribute("width", 50);
-      console.log(icon);
+ 
     };
 
     if (list[i].dt_txt == (second+ " " + "18:00:00")){
@@ -113,7 +113,7 @@ fetch(apiURL)
       document.getElementById("2").textContent = temp;
       document.getElementById("icon2").setAttribute("src",imgsource);
       document.getElementById("icon2").setAttribute("alt",imgalt);
-      console.log(icon);
+
     };
     if (list[i].dt_txt == (third+ " " + "18:00:00")){
       let temp = list[i].main.temp;
