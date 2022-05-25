@@ -1,4 +1,6 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
+////-----------------CURRENT WEATHER FISH HAVEN----------------------////
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -24,10 +26,10 @@ fetch(apiURL)
   document.getElementById("windchill").innerHTML = windchill;
  
 });
-//-----------------5 DAY FORECAST-------------------------//
+//-----------------5 DAY FORECAST FISH HAVEN-------------------------//
   
 // JSON 5 DAY FORECAST //
-const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
+const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
 fetch(forecastApiURL)
 .then((response) => response.json())
 
@@ -126,6 +128,22 @@ fetch(forecastApiURL)
   dayname5.textContent = day5_content;
 
 });
+
+////-----------------EVENTS FISH HAVEN----------------------////
             
+const eventsURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(eventsURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    const towns = jsObject["towns"];
+    const fishhaven = towns[2];
+
+    
+    document.getElementById("event1").textContent = fishhaven.events[0];
+    document.getElementById("event2").textContent = fishhaven.events[1];
+    document.getElementById("event3").textContent = fishhaven.events[2];
+
+});
 
             

@@ -1,4 +1,6 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
+////-----------------CURRENT WEATHER PRESTON----------------------////
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=83b661e31f3c6f04c5e62b84c6287698&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -127,5 +129,20 @@ fetch(forecastApiURL)
 
 });
             
+////-----------------EVENTS PRESTON----------------------////
 
-            
+const eventsURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(eventsURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    const towns = jsObject["towns"];
+    const preston = towns[4];
+
+    
+    document.getElementById("event1").textContent = preston.events[0];
+    document.getElementById("event2").textContent = preston.events[1];
+    document.getElementById("event3").textContent = preston.events[2];
+
+});
+  
