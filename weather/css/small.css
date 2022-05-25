@@ -79,7 +79,7 @@ h1, h2{
 /*Hero*/
 main div.weather-summary-div{
     width: 90%;
-    margin: 0 ;
+    margin: 0 0 0 2%;
 }
 
 main div.weather-summary-div img{

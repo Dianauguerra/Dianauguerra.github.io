@@ -80,6 +80,7 @@ h1, h2{
 main div.weather-summary-div{
     width: 90%;
     margin: 0 ;
+    margin: 0 0 0 2%;
 }
 
 main div.weather-summary-div img{
@@ -292,8 +293,9 @@ form input.submitBtn {
     background: var(--accent1-color);
     border: 1px solid #000;
     box-shadow: 5px 5px 5px 5px #ccc;
-    margin: 5% 30%;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 1rem 4rem;
+
 }
 
 #events h4{

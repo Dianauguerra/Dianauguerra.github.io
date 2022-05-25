@@ -172,7 +172,10 @@
         padding-top: 10% ;
     }
 
+    /*--------EVENTS---------*/
 
-
-
+    #events{
+        margin: 0.8rem;
+        padding: 1rem;
+    }
 }

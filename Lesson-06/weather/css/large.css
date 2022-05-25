@@ -46,6 +46,9 @@
     .statsdiv h2{
         font-size: 1.4rem;
     }
-
+    #events{
+        margin: 5% 30%;
+        padding: 1rem;
+    }
 
 }
