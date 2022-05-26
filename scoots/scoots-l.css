@@ -4,13 +4,12 @@
         --background-color: #FFFFFF;
         --primary-color: #032D64;
         --text-color:#222222;
-        --accent1-color: #1275F8;
+        --accent1-color: #967920;
       }    
 
     header {
         justify-content:flex-start;
         
-    
     }
     #header-img{
         display: block;

@@ -4,7 +4,7 @@
         --background-color: #FFFFFF;
         --primary-color: #032D64;
         --text-color:#222222;
-        --accent1-color: #1275F8;
+        --accent1-color: #967920;
       }
 
     /* HEADER */
@@ -35,9 +35,16 @@
     .navigation li {
         display: block;
         flex: 1 1 100%;
+
     }
     .active{
-        text-decoration: underline;
+       color:var(--accent1-color)
+    }
+
+    .active a{
+        color: var(--primary-color);
+        background-color: #967920;
+        padding: 1rem 2rem;
     }
 
     a{
