@@ -120,13 +120,27 @@ main div.weather-summary-div img{
 }
 
 /*FORECAST*/
-.forecast{
+/* .forecast{
     display: none;
 }
 
 .forecast-heading{
     display: none;
+} */
+
+.forecast{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
 }
+
+.forecast div{
+    background-color: #ccc;
+    padding: 1rem;
+    font-size: 14px;
+    width: max-content;
+}
+
 
 .map{
     max-width: 250px;

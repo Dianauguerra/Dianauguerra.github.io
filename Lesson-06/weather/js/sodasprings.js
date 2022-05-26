@@ -48,7 +48,6 @@ fetch(forecastApiURL)
       
     
       if (list[i].dt_txt.substr(11,18) == "18:00:00"){
-        // console.log(i)
         var result = word.substr(0,10);
         var temp = list[i].main.temp;
         var icon = list[i].weather[0].icon;
@@ -64,13 +63,13 @@ fetch(forecastApiURL)
       }  
 
     }
-
+var humityresult = (humidities[0])
  //FIRST DAY//
  var imgsource =  "http://openweathermap.org/img/wn/"+ icons[0] + "@2x.png";
  var imgalt = descriptions[0];
 
  document.getElementById("1").textContent = temps[0];
- document.getElementById("humidity1").textContent = humidities[0];
+ document.getElementById("humidity1").textContent = humityresult;
  document.getElementById("icon1").setAttribute("src",imgsource);
  document.getElementById("icon1").setAttribute("alt",imgalt);
 

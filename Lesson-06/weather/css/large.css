@@ -26,7 +26,18 @@
             box-shadow: 0 0 11px 
     }
 
-    /*-----HOMEPAGHE-----*/
+    .forecast{
+        display: flex;
+        justify-content: center;
+        column-gap:5px;
+        padding: 2rem;
+    }
+
+    .forecast div{
+        padding: 2rem;
+
+    }
+    /*-----HOMEPAGE-----*/
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
