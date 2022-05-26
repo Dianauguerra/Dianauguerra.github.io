@@ -9,19 +9,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="#" rel="stylesheet">
-        <link rel="stylesheet" href="#" />
-        <link rel="stylesheet" href="#" />
-        <link rel="stylesheet" href="#" />
+        <link rel="stylesheet" href="scoots-s.css" />
+        <link rel="stylesheet" href="scoots-m.css" />
+        <link rel="stylesheet" href="scoots-l.css" />
         <script defer src="scoots.js"></script>
     </head>
     <body>
         <header>
-            <picture>
+            <picture id="logo">
                 <img src="images/logo.png" width="300" alt="scootslogo">
             </picture>
-            <section class="header-img">
-                <source id="header-img-large" srcset="#" media="(min-width: 900px)" alt="header-img-large">
-                <img id="header-img-medium"  src="#" alt="header-img-medium">   
+            <section id="header-img">
+                <picture>
+                <source srcset="images/palmtrees300.jpeg" media="(min-width: 401px) and (max-width: 899px)">
+                <source id="header" srcset="images/palmtrees600.jpeg" media="(min-width: 900px)">
+            <img id="small-header-img" src="#" alt="hero">
+            </picture>
             </section>
         </header>
         <nav class="navbar">
