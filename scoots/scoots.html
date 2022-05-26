@@ -30,22 +30,22 @@
         <nav class="navbar">
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">Menu</a></li>
-                <li class="active"><a href="scoots.html">Home</a></li>
-                <li><a href="#">Rentals</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="scoots.html">HOME</a></li>
+                <li><a href="#">RENTALS</a></li>
+                <li><a href="#">RESERVATIONS</a></li>
+                <li><a href="#">TOURS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
         <main>
-            <h2 class="title">Types of Rentals</h2>
+            <h2 class="title">TYPES OF RENTALS</h2>
             <div class="rentals-div">
                 <div id="option1">
-                    <picture class="rental-img">
+                    <picture id="rental-img1">
                             <source id="scooter-large" srcset="images/scooter400.jpeg" media="(min-width: 400px)" alt="honda-large">
                         <img id="scooter-small"  src="images/scooter.png" alt="honda-small">
                     </picture>
-                    <section class="rental-info">
+                    <section id="rental-info1">
                         <h2>Honda Motor Scooters</h2>
                         <p>Honda Metropolitan (49cc)—1 person</p>
                         <p>Honda Dio (110cc)—2 person</p>
@@ -53,26 +53,37 @@
                     </section>  
                 </div>
                 <div id="option2">
-                    <picture class="rental-img">
+                    <picture id="rental-img2">
                             <source id="atv-large" srcset="images/atv400.jpeg" media="(min-width: 400px)" alt="atv-large">
                         <img id="atv-small"  src="images/quad.png" alt="atv-small">
                     </picture>
-                    <section class="rental-info">
+                    <section id="rental-info2">
                         <h2>ATV Side-by-Side</h2>
                         <p>Honda Pioneer 1000</p>
                     </section>  
                 </div>
                 <div id="option3">
-                    <picture class="rental-img">
+                    <picture id="rental-img1">
+                        <source id="jeep-large" srcset="images/jeep400.jpeg" media="(min-width: 400px)" alt="honda-large">
+                    <img id="jeep-small"  src="images/jeep.png" alt="honda-small">
+                </picture>
+                <section id="rental-info1">
+                    <h2>Honda Motor Scooters</h2>
+                    <p>Honda Metropolitan (49cc)—1 person</p>
+                    <p>Honda Dio (110cc)—2 person</p>
+                    <p>Honda PCX150 (149cc)—2 person</p>
+                </section>  
+                    <!-- <picture id="rental-img3">
                             <source id="jeep-large" srcset="images/jeep400.jpeg" media="(min-width: 400px)" alt="jeep-large">
                         <img id="jeep-small"  src="images/jeep.png" alt="jeep-small">
                     </picture>
-                    <section class="rental-info">
+                    <section id="rental-info3">
                         <h2>Jeep Rentals</h2>
                         <p>4-door Jeep Wrangler—manual with A/C—5 people max</p>
                         <p>2-door Jeep Wrangler—open air—manual—4 people max</p>
                     </section>  
-                </div>
+                </div> -->
+            </div>
             </div>
             <div class="weather-div">
                 <h2 class="weather-heading">Weather in Cozumel</h2>
@@ -80,7 +91,7 @@
                     <h3>Current Weather</span></h3>
                     <img id="c-icon" src="#" alt="c-icon" width="50">
                     <p>Description: <span id="c-description"></span>%</p>
-                    <p>Humidity: <span id="c-humidity1"></span>%</p>
+                    <p>Humidity: <span id="c-humidity"></span>%</p>
                     <p>Temp: <span id="c-temp"></span>°F</p>
                 </div>
                 <div class="day1">

@@ -19,5 +19,13 @@
         height: 100%;
     }
 
+    /* HOME RENTALS */
+
+    .rentals-div{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
 
 }

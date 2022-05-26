@@ -19,7 +19,7 @@ main{
 }
 
 h3, h2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tiro Kannada', serif;
 }
 
 p{
@@ -42,7 +42,7 @@ header {
 
 nav{
     margin: 0;
-    background-color: var(--background-color);
+    background-color: var(--accent1-color);
     color:var(--primary-color);
     padding: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
@@ -51,6 +51,7 @@ nav{
 }
 nav a{
     color:var(--primary-color);
+    text-decoration: none;
 }
 .navigation{
     list-style: none;
@@ -81,5 +82,11 @@ footer{
 footer p, footer a{
     text-decoration: none;
     color:var(--background-color);
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* TYPES OF RENTAL */
+
+.title{
+    color:var(--accent1-color)
 }

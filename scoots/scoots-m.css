@@ -24,8 +24,15 @@
 
     /* NAVIGATION */
 
+    nav{
+        font-size: 1.2rem;
+        
+    }
+
+
     .navigation {
         display: flex;
+        
     }
 
     .navigation li:first-child{
@@ -47,13 +54,20 @@
         padding: 1rem 2rem;
     }
 
-    a{
-        text-decoration: none;
-        color:var(--text-color);
-    }
-    
     li:hover {
         font-size: larger;
     }
+    
+    /* TYPES OF RENTAL */
+    .title{
+
+            font-size: 2.7rem;
+
+    }
+
+
+
+
+
 
 }
