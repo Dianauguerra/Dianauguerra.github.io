@@ -60,10 +60,12 @@
         background-color: white;
         padding: 1rem;
         box-shadow: 5px 5px 2px #aaaaaa;
-        font-size: 14px;
+        font-size: 12px;
         width: 4rem;
+        white-space: nowrap;
+        overflow: hidden;
     }
-    
+
     .calendar img{
         display: inline;
         max-width: 400px;

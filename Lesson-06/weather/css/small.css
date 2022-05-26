@@ -101,7 +101,7 @@ main div.weather-summary-div img{
 .calendar{
     display: block;
     margin: 1rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
     color: var(--secondary-color);
     background-color:white;
     box-shadow: 5px 5px 5px 5px #ccc;
@@ -139,8 +139,10 @@ main div.weather-summary-div img{
     padding: 1rem;
     font-size: 14px;
     width: max-content;
-}
+    white-space: normal;
+    overflow-wrap: break-word;
 
+}
 
 .map{
     max-width: 250px;
