@@ -18,13 +18,40 @@ p{
     background-color: var(--background-color);
     
 }
+
 header {
     display: flex;
     justify-content:center;
     background-color: var(--primary-color);
-    
+    padding-bottom: 1rem;
 }
-
 #header-img{
     display: none;
+}
+
+/* NAVIGATION */
+
+nav{
+    margin: 0;
+    background-color: var(--background-color);
+    padding: 1rem;
+    color:#232e49;
+
+}
+.navigation{
+    list-style: none;
+    text-align: center;
+    padding:0;
+
+}
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li{
+    display:none;
+}
+
+.responsive li {
+    display: block;
 }

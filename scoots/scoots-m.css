@@ -1,12 +1,52 @@
 @media only screen and (min-width: 600px) {
 
+    :root {
+        --background-color: #FFFFFF;
+        --primary-color: #032D64;
+        --text-color:#222222;
+        --accent1-color: #1275F8;
+      }
+
+    /* HEADER */
+
+    header{
+        padding-bottom:0;
+    }
+
     #logo{
         padding:10%;
     }
 
     #header-img{
         display: none;
+
     }
 
+    /* NAVIGATION */
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child{
+        display:none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .active{
+        text-decoration: underline;
+    }
+
+    a{
+        text-decoration: none;
+        color:var(--text-color);
+    }
+    
+    li:hover {
+        font-size: large;
+    }
 
 }

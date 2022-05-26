@@ -1,5 +1,11 @@
 @media only screen and (min-width: 900px){
 
+    :root {
+        --background-color: #FFFFFF;
+        --primary-color: #032D64;
+        --text-color:#222222;
+        --accent1-color: #1275F8;
+      }    
 
     header {
         justify-content:flex-start;
@@ -12,7 +18,6 @@
         margin:0;
         width: 100%;
         height: 100%;
-        
     }
 
 
