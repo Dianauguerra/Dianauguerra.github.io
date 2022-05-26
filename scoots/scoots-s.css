@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&family=Tiro+Kannada&display=swap");
 
 :root {
     --background-color: #FFFFFF;
@@ -13,9 +13,18 @@ body{
     background-color:var(--background-color);
 }
 
+main{
+    margin: 10px;
+    text-align: center;
+}
+
+h3, h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 p{
     color:var(--text-color);
-    background-color: var(--background-color);
+    font-family: 'Tiro Kannada', serif;
     
 }
 
@@ -35,7 +44,9 @@ nav{
     margin: 0;
     background-color: var(--background-color);
     padding: 1rem;
-    color:#232e49;
+    color:var(--text-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.7rem;
 
 }
 .navigation{
@@ -54,4 +65,17 @@ nav{
 
 .responsive li {
     display: block;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p, footer a{
+    text-decoration: none;
+    color:var(--background-color);
 }
