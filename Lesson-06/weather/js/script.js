@@ -67,10 +67,3 @@ imagesToLoad.forEach((img) => {
 function adjustRating(rating) {
   document.getElementById("stormvalue").innerHTML = rating;
 }
-
-
-// function validateZipCode(elementValue){
-//   var zipCodePattern = /^\d{5}$/;
-//   zipCodePattern.test(elementValue);
-//   // document.getElementById("elementValue").innerHTML = elementValue;
-// }
