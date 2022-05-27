@@ -90,3 +90,21 @@ footer p, footer a{
 .title{
     color:var(--accent1-color)
 }
+
+/* WEATHER */
+
+.weather-div{
+    display: block;
+}
+
+#forecast{
+    display: flex;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+}
+
+.weather-heading{
+    text-decoration: overline underline;
+    color:var(--accent1-color);
+    padding: 1rem;
+}

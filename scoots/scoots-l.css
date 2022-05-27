@@ -24,8 +24,26 @@
     .rentals-div{
         display: flex;
         justify-content: space-around;
+        
     }
-    
+
+
+    /* WEATHER */
+
+
+    #forecast{
+        display: flex;
+        column-gap: 4rem;
+        
+
+    }
+
+    .weather-div{
+        display: flex;
+        justify-content: center;
+        column-gap: 2px;
+        
+    }
 
 
 }
