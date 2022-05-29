@@ -19,6 +19,13 @@
         height: 100%;
     }
 
+
+    /* HEADER */
+    #logo{
+        border-bottom: 4px solid var(--background-color);
+        border-left: 9px solid var(--background-color);
+    }
+
     /* HOME RENTALS */
 
     .rentals-div{
@@ -42,8 +49,14 @@
         display: flex;
         justify-content: center;
         column-gap: 2px;
+
         
     }
+
+    #header-img{
+        background-color: white;
+    }
+
 
 
 }
