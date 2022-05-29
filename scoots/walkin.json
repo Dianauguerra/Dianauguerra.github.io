@@ -1,39 +1,39 @@
-{"reservation":[
+{"walkin":[
     {
         "type": "Honda Metro Scooter",
         "persons": "1",
-        "halfday": "20",
-        "fullday": "30"
+        "halfday": "25",
+        "fullday": "35"
     },
     {
         "type": "Honda Dio Scooter",
         "persons": "2",
-        "halfday": "30",
-        "fullday": "40"
+        "halfday": "35",
+        "fullday": "45"
     },
     {
         "type": "Honda PCX150 Scooter",
         "persons": "2",
-        "halfday": "40",
-        "fullday": "50"
+        "halfday": "45",
+        "fullday": "55"
     },
     {
         "type": "Honda Pioneer ATV",
         "persons": "4",
-        "halfday": "50",
-        "fullday": "70"
+        "halfday": "60",
+        "fullday": "80"
     },
     {
         "type": "Jeep Wrangler-4 door with a/c",
         "persons": "5",
-        "halfday": "70",
-        "fullday": "100"
+        "halfday": "85",
+        "fullday": "125"
     },
     {
         "type": "Jeep Wrangler -2 door",
         "persons": "4",
-        "halfday": "60",
-        "fullday": "85"
+        "halfday": "70",
+        "fullday": "90"
     }
 
     ]
