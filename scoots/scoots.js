@@ -48,7 +48,7 @@ fetch(forecastApiURL)
       var word = list[i].dt_txt;
       
     
-      if (list[i].dt_txt.substr(11,18) == "18:00:00"){
+      if (list[i].dt_txt.substr(11,18) == "12:00:00"){
         var result = word.substr(0,10);
         var temp = list[i].main.temp;
         var icon = list[i].weather[0].icon;
