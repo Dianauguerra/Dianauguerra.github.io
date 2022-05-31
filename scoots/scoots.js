@@ -65,7 +65,7 @@ fetch(forecastApiURL)
 
     }
 
-
+    console.log(temps[0])
 
     //FIRST DAY//
     
@@ -140,6 +140,81 @@ fetch(forecastApiURL)
 
 });
 
-      
+///--------------------RESERVATION: RENTALS PRICES----------------////
+const ReservationData = "https://raw.githubusercontent.com/Dianauguerra/Dianauguerra.github.io/master/scoots/data/reservation.json"
+fetch(ReservationData)
+  .then((response) => response.json())
+  .then((jsnbject) => {
 
-    
+  console.log(jsnbject);
+
+  // HONDA METRO SCOOTER //
+  document.getElementById("scooter1").textContent = jsnbject.reservation[0].type;
+  document.getElementById("smax1").textContent = jsnbject.reservation[0].persons;
+  document.getElementById("sr-half-price1").textContent = jsnbject.reservation[0].halfday;
+  document.getElementById("sr-full-price1").textContent = jsnbject.reservation[0].fullday;
+ 
+  // HONDA DIO SCOOTER //
+  document.getElementById("scooter2").textContent = jsnbject.reservation[1].type;
+  document.getElementById("smax2").textContent = jsnbject.reservation[1].persons;
+  document.getElementById("sr-half-price2").textContent = jsnbject.reservation[1].halfday;
+  document.getElementById("sr-full-price2").textContent = jsnbject.reservation[1].fullday;
+  
+  // HONDA PCX150 SCOOTER//
+  document.getElementById("scooter3").textContent = jsnbject.reservation[2].type;
+  document.getElementById("smax3").textContent = jsnbject.reservation[2].persons;
+  document.getElementById("sr-half-price3").textContent = jsnbject.reservation[2].halfday;
+  document.getElementById("sr-full-price3").textContent = jsnbject.reservation[2].fullday;
+
+  // HONDA PIONEER ATV //
+  document.getElementById("atv").textContent = jsnbject.reservation[3].type;
+  document.getElementById("amax1").textContent = jsnbject.reservation[3].persons;
+  document.getElementById("ar-half-price1").textContent = jsnbject.reservation[3].halfday;
+  document.getElementById("ar-full-price1").textContent = jsnbject.reservation[3].fullday;
+  
+  // Jeep Wrangler-4 door with a/c //
+  document.getElementById("jeep1").textContent = jsnbject.reservation[4].type;
+  document.getElementById("jmax1").textContent = jsnbject.reservation[4].persons;
+  document.getElementById("jr-half-price1").textContent = jsnbject.reservation[4].halfday;
+  document.getElementById("jr-full-price1").textContent = jsnbject.reservation[4].fullday;
+
+  // Jeep Wrangler -2 door//
+  document.getElementById("jeep2").textContent = jsnbject.reservation[5].type;
+  document.getElementById("jmax2").textContent = jsnbject.reservation[5].persons;
+  document.getElementById("jr-half-price2").textContent = jsnbject.reservation[5].halfday;
+  document.getElementById("jr-full-price2").textContent = jsnbject.reservation[5].fullday;
+});
+
+///--------------------WALK-IN: RENTALS PRICES----------------////
+
+const WalkinData = "https://raw.githubusercontent.com/Dianauguerra/Dianauguerra.github.io/master/scoots/data/walkin.json"
+fetch(WalkinData)
+  .then((response) => response.json())
+  .then((jsnobject) => {  
+
+  // HONDA METRO SCOOTER //
+  document.getElementById("sw-half-price1").textContent = jsnobject.walkin[0].halfday;
+  document.getElementById("sw-full-price1").textContent = jsnobject.walkin[0].fullday;
+ 
+  // HONDA DIO SCOOTER //
+  document.getElementById("sw-half-price2").textContent = jsnobject.walkin[1].halfday;
+  document.getElementById("sw-full-price2").textContent = jsnobject.walkin[1].fullday;
+  
+  // HONDA PCX150 SCOOTER//
+  document.getElementById("sw-half-price3").textContent = jsnobject.walkin[2].halfday;
+  document.getElementById("sw-full-price3").textContent = jsnobject.walkin[2].fullday;
+
+  // HONDA PIONEER ATV //
+  document.getElementById("aw-half-price1").textContent = jsnobject.walkin[3].halfday;
+  document.getElementById("aw-full-price1").textContent = jsnobject.walkin[3].fullday;
+  
+  // Jeep Wrangler-4 door with a/c //
+  document.getElementById("jw-half-price1").textContent = jsnobject.walkin[4].halfday;
+  document.getElementById("jw-full-price1").textContent = jsnobject.walkin[4].fullday;
+
+  // Jeep Wrangler -2 door//
+  document.getElementById("jw-half-price2").textContent = jsnobject.walkin[5].halfday;
+  document.getElementById("jw-full-price2").textContent = jsnobject.walkin[5].fullday;
+
+
+  });

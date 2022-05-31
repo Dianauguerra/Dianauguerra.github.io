@@ -100,11 +100,31 @@ footer p, footer a{
 #forecast{
     display: flex;
     background-color: var(--accent1-color);
-    padding: 1rem;
+    padding: 1rem 2rem;
+
 }
+#forecast{
+    display: flex;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+
+}
+
+#forecast div{
+    width: 20%;
+
+}
+
 
 .weather-heading{
     text-decoration: overline underline;
     color:var(--accent1-color);
     padding: 1rem;
 }
+
+/* RENTALS PRICES */
+
+.top{
+    text-align: center;
+}
+
