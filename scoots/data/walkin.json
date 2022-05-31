@@ -2,38 +2,38 @@
     {
         "type": "Honda Metro Scooter",
         "persons": "1",
-        "halfday": "25",
-        "fullday": "35"
+        "halfday": "25$",
+        "fullday": "35$"
     },
     {
         "type": "Honda Dio Scooter",
         "persons": "2",
-        "halfday": "35",
-        "fullday": "45"
+        "halfday": "35$",
+        "fullday": "45$"
     },
     {
         "type": "Honda PCX150 Scooter",
         "persons": "2",
-        "halfday": "45",
-        "fullday": "55"
+        "halfday": "45$",
+        "fullday": "55$"
     },
     {
         "type": "Honda Pioneer ATV",
         "persons": "4",
-        "halfday": "60",
-        "fullday": "80"
+        "halfday": "60$",
+        "fullday": "80$"
     },
     {
         "type": "Jeep Wrangler-4 door with a/c",
         "persons": "5",
-        "halfday": "85",
-        "fullday": "125"
+        "halfday": "85$",
+        "fullday": "125$"
     },
     {
         "type": "Jeep Wrangler -2 door",
         "persons": "4",
-        "halfday": "70",
-        "fullday": "90"
+        "halfday": "70$",
+        "fullday": "90$"
     }
 
     ]

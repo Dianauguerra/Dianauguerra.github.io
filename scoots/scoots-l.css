@@ -58,6 +58,20 @@
         background-color: white;
     }
 
+    #option1, #option2, #option3{
 
+        justify-content: center;
 
+    }
+    #rental1, #rental2, #rental3{
+        padding: 2rem;
+        margin: 2rem 4rem;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        color: var(--primary-color);
+    }
+
+    /* #info1, #info2, #info3{
+        padding: 1rem;
+        margin:1rem;
+    } */
 }

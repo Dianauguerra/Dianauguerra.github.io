@@ -19,11 +19,12 @@ main{
 }
 
 h3, h2{
+    color: var(--primary-color);
     font-family: 'Tiro Kannada', serif;
 }
 
 p{
-    color:var(--text-color);
+    color:var(--primary-color);
     font-family: 'Tiro Kannada', serif;
     
 }
@@ -97,16 +98,11 @@ footer p, footer a{
     display: block;
 }
 
+
 #forecast{
     display: flex;
     background-color: var(--accent1-color);
     padding: 1rem 2rem;
-
-}
-#forecast{
-    display: flex;
-    background-color: var(--accent1-color);
-    padding: 1rem;
 
 }
 
@@ -118,13 +114,34 @@ footer p, footer a{
 
 .weather-heading{
     text-decoration: overline underline;
-    color:var(--accent1-color);
+    color: var(--background-color);
     padding: 1rem;
 }
 
 /* RENTALS PRICES */
 
+
+
 .top{
     text-align: center;
 }
+
+table{
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th, td {
+    padding: 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.rentaltype{
+    font-size: 2rem;
+    text-align: center;
+}
+
 
