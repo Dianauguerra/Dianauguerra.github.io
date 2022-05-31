@@ -86,8 +86,11 @@
     #forecast{
         background-color: var(--accent1-color);
     }
-    /* #option1{
-        display: block;
-    } */
+
+    /* RENTAL FORM */
+    form label.top, form div {
+        font-size: 0.9rem;
+    
+    }
 
 }

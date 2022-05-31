@@ -70,8 +70,20 @@
 
     }
 
-    /* #info1, #info2, #info3{
-        padding: 1rem;
-        margin:1rem;
-    } */
+    /* RENTAL FORM */
+
+    input[type=text], input[type=tel], input[type=email], select {
+        padding: 0.5rem;
+    }
+    
+    input[type=submit] {
+    font-size: 1rem;
+    padding: 0.5rem;
+    }
+
+    form label.top, form div {
+        font-size: 1rem;
+    
+    }
+    
 }

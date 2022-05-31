@@ -39,6 +39,58 @@
         </nav>
         <main>
             <h2 class="title">RESERVATIONS</h2>
+            <form method="get" action="confirmation.html">
+                <div>
+                <fieldset>
+                    <legend>Client Information</legend>
+                    <label class="top">Full Name* <input type="text" name="name" pattern="^.* .*$" required></label>
+                    <label class="top">E-mail* <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" required></label>
+                    <label class="top">Country* <input type="text" name="country" required></label>
+                </fieldset>
+
+                <fieldset id="rentalinfo">
+                    
+                    <legend>Rental Information</legend>
+
+                    <label class="top">
+                        Rental Type*
+                        <select name="regions" onchange="selectResponse()" required>
+                            <option value="" disabled selected>Select...</option>
+                            <option value="MetroScooter">#1 Honda Metro SCOOTER</option>
+                            <option value="DioScooter">#2 Honda Dio SCOOTER</option>
+                            <option value="PCX150Scooter">#3 Honda PCX150 SCOOTER</option>
+                            <option value="PionnerATV">#4 Honda Pioneer ATV</option>
+                            <option value="Jeep4door">#5 Jeep Wrangler-4 Door with a/c</option>
+                            <option value="Jeep2door">#6 Jeep Wrangler-2 Door</option>
+                        </select>
+                    </label>           
+                    
+                    <label class="sbs">Starting Date* <input type="date" name="completeDate" required></label>
+
+                    <label class="sbs">Period of Rental:</label>
+                    <label ><input type="radio" name="halfday" value="halfday">Half-Day</label>
+                    <label><input type="radio" name="fullday" value="fullday">Full-Day</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Add cruise line (If applicable)</legend>
+                    <label class="top">Cruise line <input type="text" name="cruiseline"></label>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special accomodations / Comments</legend>
+                    <textarea id="comments" name="comments">
+                    </textarea>
+                </fieldset>
+                <fieldset>                    
+                    <label for="tac">
+                        <input id="tac" type="checkbox" name="terms-and-conditions" required>
+                        I agree to the <a href="agreement.html">Terms of the Agreement</a>
+                      </label>
+                </fieldset>
+                <input type="submit" value="Complete Reservation" class="submitBtn">
+                </div>
+            </form>
         </main>
         <footer>
             <p>
