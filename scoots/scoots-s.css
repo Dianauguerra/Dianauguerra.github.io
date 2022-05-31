@@ -72,6 +72,21 @@ nav a{
     display: block;
 }
 
+/* BUTTON */
+
+#button{
+    background-color: var(--primary-color);
+    margin:3rem auto;
+    padding: 1rem 4rem;
+    border: none;
+    color: var(--background-color);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 /* FOOTER */
 
 footer{
@@ -114,7 +129,7 @@ footer p, footer a{
 
 .weather-heading{
     text-decoration: overline underline;
-    color: var(--background-color);
+    color: var(--accent1-color);
     padding: 1rem;
 }
 
@@ -142,6 +157,12 @@ th, td {
 .rentaltype{
     font-size: 2rem;
     text-align: center;
+}
+
+#rental1, #rental2, #rental3{
+    margin: 3rem 0;
+    color: var(--primary-color);
+
 }
 
 
