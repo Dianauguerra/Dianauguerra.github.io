@@ -7,6 +7,11 @@
         --accent1-color: #967920;
       }    
 
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
     /* HOME RENTALS */
 
@@ -103,42 +108,42 @@
 
 /* TOURS */
 
-#tours{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 2rem;
-}
+    #tours{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem;
+    }
 
-#tours div{
-    box-shadow: 2px 5px 5px #c2c1c1;
-    margin: 1rem;
-    padding: 1rem;
-    height: 650px;
-}
+    #tours div{
+        box-shadow: 2px 5px 5px #c2c1c1;
+        margin: 1rem;
+        padding: 1rem;
+        height: 650px;
+    }
 
-#tours div:hover {
-    box-shadow: 0 0 11px;
-}
+    #tours div:hover {
+        box-shadow: 0 0 11px;
+    }
 
-#beachdiv{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2rem;
-}
+    #beachdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem;
+    }
 
-.responsive{
-    width: 100%;
-}
+    .responsive{
+        width: 100%;
+    }
 
-#beach1{
-    grid-column: 1/2;
-}
+    #beach1{
+        grid-column: 1/2;
+    }
 
-#beachmap{
-    display: block;
-    padding:2rem;
-    align-self: center;
+    #beachmap{
+        display: block;
+        padding:2rem;
+        align-self: center;
+    }
 
-}
 
 }

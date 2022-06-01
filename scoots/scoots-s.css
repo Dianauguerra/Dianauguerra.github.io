@@ -7,8 +7,6 @@
     --accent1-color: #967920;
   }
 
-
-
 body{
     background-color:var(--background-color);
 }
@@ -34,6 +32,10 @@ header {
     justify-content:center;
     background-color: var(--primary-color);
     padding-bottom: 1rem;
+}
+
+.socialdividers{
+    font-size: 12px;
 }
 
 /* NAVIGATION */
