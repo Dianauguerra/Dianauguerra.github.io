@@ -106,6 +106,7 @@
 #tours{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
 }
 
 #tours div{
@@ -135,6 +136,9 @@
 
 #beachmap{
     display: block;
+    padding:2rem;
+    align-self: center;
+
 }
 
 }
