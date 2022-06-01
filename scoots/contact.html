@@ -38,7 +38,60 @@
             </ul>
         </nav>
         <main>
-            <h2 class="title">CONTACT</h2>
+            <h1 class="title">CONTACT</h1>
+            <hr>
+            <div id="map">
+                <div id="location1">
+                    <h3>Main Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.1363781775144!2d-86.96186797778897!3d20.500634867132597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59d954aa0ba7%3A0xe1ad6188e49698de!2s5%20Avenida%20Bis%20Sur%201197-1101%2C%20Gonzalo%20Guerrero%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1654052345877!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>5 Avenida Bis Sur 1197</p>
+                    <p>Gonzalo Guerrero</p>
+                    <p>77600 San Miguel de Cozumel, Q.R.</p>
+                    <p>Mexico</p>
+                    </div>
+                <hr>
+                <div id="location2">
+                    <h3>Second Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.8570421652867!2d-86.92395432778095!3d20.553029315291514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e588dc3fd762f%3A0x183c65cec0d8342d!2sPunta%20Nte.%2C%2077682%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1654052979378!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Punta Nte.</p>
+                    <p>77682 San Miguel de Cozumel, Quintana Roo</p>
+                    <p>Mexico</p>
+                </div>
+            </div>
+            <hr>
+            <div id="faqcontact">
+                <div id="faqdiv">
+                    <h3 id="faq">FAQ</h3>
+                    <h3>What kind of driver’s license can I use?</h3>
+                    <p>We accept a current and valid driver’s license from your home country with the proper class or endorsement permitting you to ride the motorcycle, or equivalent of the motorcycle, you are renting.</p>
+                    <h3>How old do you have to be to make a reservation for a rental?</h3>
+                    <p>The minimun age to make a reservation is 18 years. Customers that are 18-24 years old are required to have the Platinum Insurance with their reservation.</p>
+                    <h3>Is there a required deposit to make a reservation?</h3>
+                    <p>You can make a reservation online with no deposit necessary. The deposit will be required the same day of pick up. The amount of deposit is 30% of the total amount.</p>
+                    <h3>What kind of damage insurance does Scoots offer?</h3>
+                    <p>We offer a theft and damage waiver. It completely covers damage and partially covers thef. The renter pays $0 per damage and up to $1000 per theft occurrence. Contact our agents for more information.</p>
+                    <h3>Are customers welcomed as walk-ins?</h3>
+                    <p>Both locations are open to walk-ins during their respective business hours.</p>
+                </div>
+            <div id="contactdiv">
+                <h3>If you still have any questions, please contact us:</h3>
+                <p>E-mail: CustomerService@Scoots.com</p>
+                <p>Phone: 1-800-122-3456</p>
+               
+                <form id="questionsform" method="get" action="sent.html">
+                    <fieldset id="fieldsetquestions">
+                        <label class="top">Full Name* <input type="text" name="name" pattern="^.* .*$" required></label>
+                        <label class="top">E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <legend>Send us a message</legend>
+                        Message:
+                        <textarea id="questions" name="questions" required>
+                        </textarea>
+                    </fieldset>
+                    <input type="submit" value="Send" class="submitBtn">
+                </form>
+                
+            </div>
+        </div>
         </main>
         <footer>
             <p>

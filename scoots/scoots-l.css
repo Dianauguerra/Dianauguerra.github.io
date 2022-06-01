@@ -85,5 +85,37 @@
         font-size: 1rem;
     
     }
-    
+
+    /* CONTACT */
+
+    hr{
+        display: none;
+    }
+
+    #map{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+
+    #faqcontact{
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        margin:2rem;
+    }
+
+
+    #faqdiv{
+        padding: 2rem;
+        margin-right: 1rem;
+        text-align: left;
+        padding-right: 4rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    }
+
+    #contactdiv{
+        padding: 2rem;
+    }
 }

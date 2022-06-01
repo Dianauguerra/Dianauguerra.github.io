@@ -47,7 +47,7 @@ nav{
     color:var(--primary-color);
     padding: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1rem;
     
 }
 nav a{
@@ -196,67 +196,115 @@ input[type=text], input[type=tel], input[type=email], select {
     box-sizing: border-box;
 }
 
-    input[type=submit] {
+input[type=submit] {
     width: 100%;
     max-width: 20rem;
     background-color: var(--primary-color);
     color: var(--background-color);
     padding: 1rem;
-    margin: 0.7rem 0;
+    margin: auto;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-    input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: var(--accent1-color);
 }
 
-    form div {
+form div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
-    fieldset {
+fieldset {
     border: 1px solid #ccc;
     margin: 1rem 0; 
 }
 
-    form label.top, form div {
+form label.top, form div {
     display: block;
     font-size: 0.8rem;
+}
 
+form label.sbs{
+    display: block;
+}
+
+#rentalinfo label{
+    padding:1rem;
+}
+
+#comments{
+    border: 1px solid #ccc;
+    width: 97%;
+    max-width: 600px;
+    height: 100px;
+    color:#555;
+}
+.agreement{
+    overflow-y: auto;
+    height: 150px;
+    width: 90%;
+    border: 1px solid #ddd;
+    padding: 0;
+    font-size: 0.7rem;
+    text-align: left;
+    margin:auto;
+    inline-size: 100%;
+    overflow-wrap: break-all;
+    }
+
+/* CONTACT */
+
+iframe{
+    max-width: 30rem;
+    width: 80%;
+    margin: 1rem;
+}
+hr{
+    border-top: 1px solid #bbb;
+}
+
+
+
+#location1, #location2{
+    margin-top: 2rem;
+}
+
+#faq{
+    font-size: 1.5rem;
+}
+
+#contactdiv{
+    display: block;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    max-width: 40rem;
 
 }
 
-    #rentalinfo label{
-        padding:1rem;
-    }
+#contactdiv legend{
+    text-decoration: none;
+}
 
-    form label.sbs{
-        display: block;
-    }
+#questions{
+    border: 1px solid #ccc;
+    width: 97%;
+    max-width: 600px;
+    height: 100px;
+    color:#555;
+}
 
-    #comments{
-        border: 1px solid #ccc;
-        width: 97%;
-        max-width: 600px;
-        height: 100px;
-        color:#555;
-    }
-    .agreement{
-        overflow-y: auto;
-        height: 150px;
-        width: 90%;
-        border: 1px solid #ddd;
-        padding: 0;
-        font-size: 0.7rem;
-        text-align: left;
-        margin:auto;
-        inline-size: 100%;
-        overflow-wrap: break-all;
-        }
+#fieldsetquestions{
+    display: block;
+}
+
+
+
+
 
 
 
