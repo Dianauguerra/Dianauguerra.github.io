@@ -1,3 +1,9 @@
+//Last Modification//
+const currentDate = new Date();
+document.querySelector('#year').textContent = currentDate.getFullYear();
+let lastmod = document.lastModified;
+document.querySelector('#lastMod').textContent = lastmod;
+
 //Hamburger//
 function toggleMenu() {
     document.getElementsByClassName('navbar')[0].classList.toggle('responsive');
