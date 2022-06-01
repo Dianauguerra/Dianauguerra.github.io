@@ -18,7 +18,36 @@
     .rentals-div{
         display: flex;
         justify-content: space-around;
+        margin: 1rem;
+        padding-top: 2rem;
         
+    }
+
+
+    #attractionsdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 2rem;
+        padding: 2rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    }
+
+    #locationsdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin: 2rem;
+        padding: 2rem;
+
+    }
+
+    .locationspic{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+
+    .visiblehr{
+        display: block;
     }
 
 
@@ -144,6 +173,9 @@
         padding:2rem;
         align-self: center;
     }
+
+
+
 
 
 }
