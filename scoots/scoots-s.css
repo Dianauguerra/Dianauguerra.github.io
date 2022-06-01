@@ -35,9 +35,6 @@ header {
     background-color: var(--primary-color);
     padding-bottom: 1rem;
 }
-#header-img{
-    display: none;
-}
 
 /* NAVIGATION */
 
@@ -327,6 +324,14 @@ transition: filter 0.5s;
 #tours div a{
     color: var(--accent1-color);
 }
+
+#beachmap{
+    display: none;
+}
+
+
+
+
 
 
 
