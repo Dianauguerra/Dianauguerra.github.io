@@ -262,6 +262,7 @@ iframe{
     max-width: 30rem;
     width: 80%;
     margin: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 hr{
     border-top: 1px solid #bbb;
@@ -302,6 +303,30 @@ hr{
     display: block;
 }
 
+/* TOURS */
+
+#tours{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
+#tours div{
+    margin-bottom: 2rem;
+}
+
+img[data-src] {
+    filter: blur(0.7em);
+  }
+    
+img {
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+#tours div a{
+    color: var(--accent1-color);
+}
 
 
 

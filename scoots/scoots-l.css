@@ -118,4 +118,23 @@
     #contactdiv{
         padding: 2rem;
     }
+
+/* TOURS */
+
+#tours{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tours div{
+    box-shadow: 2px 5px 5px #c2c1c1;
+    margin: 1rem;
+    padding: 1rem;
+    height: 650px;
+}
+
+#tours div:hover {
+        box-shadow: 0 0 11px 
+}
+
 }
