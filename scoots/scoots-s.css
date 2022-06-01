@@ -340,7 +340,12 @@ transition: filter 0.5s;
     display: none;
 }
 
-
+/* RESOURCES */
+#resourcesdiv{
+    text-align: left;
+    padding: 2rem;
+    
+}
 
 
 
