@@ -38,6 +38,13 @@ header {
     font-size: 12px;
 }
 
+#option1, #option2, #option3{
+
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+
 /* NAVIGATION */
 
 nav{
@@ -128,7 +135,9 @@ footer p, footer a{
 
 }
 
-
+#current-weather-div{
+    display: none;
+}
 .weather-heading{
     text-decoration: overline underline;
     color: var(--accent1-color);

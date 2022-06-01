@@ -84,7 +84,7 @@ fetch(forecastApiURL)
     document.getElementById("icon1").setAttribute("alt",imgalt);
 
     var dateObj = new Date(results[0]); 
-    var day1_content = dateObj.toLocaleString("default", { weekday: "long" });
+    var day1_content = dateObj.toLocaleString("default", { weekday: "short" });
     const dayname1 = document.getElementById("dayName1");
     dayname1.textContent = day1_content;
 
@@ -98,7 +98,7 @@ fetch(forecastApiURL)
     document.getElementById("icon2").setAttribute("alt",imgalt);
 
     var dateObj = new Date(results[1]); 
-    var day2_content = dateObj.toLocaleString("default", { weekday: "long" });
+    var day2_content = dateObj.toLocaleString("default", { weekday: "short" });
     const dayname2 = document.getElementById("dayName2");
     dayname2.textContent = day2_content;
 
@@ -112,7 +112,7 @@ fetch(forecastApiURL)
     document.getElementById("icon3").setAttribute("alt",imgalt);
     
     var dateObj = new Date(results[2]); 
-    var day3_content = dateObj.toLocaleString("default", { weekday: "long" });
+    var day3_content = dateObj.toLocaleString("default", { weekday: "short" });
     const dayname3 = document.getElementById("dayName3");
     dayname3.textContent = day3_content;
 
@@ -126,7 +126,7 @@ fetch(forecastApiURL)
     document.getElementById("icon4").setAttribute("alt",imgalt);
 
     var dateObj = new Date(results[3]); 
-    var day4_content = dateObj.toLocaleString("default", { weekday: "long" });
+    var day4_content = dateObj.toLocaleString("default", { weekday: "short" });
     const dayname4 = document.getElementById("dayName4");
     dayname4.textContent = day4_content;
 
@@ -140,7 +140,7 @@ fetch(forecastApiURL)
     document.getElementById("icon5").setAttribute("alt",imgalt);
 
     var dateObj = new Date(results[4]); 
-    var day5_content = dateObj.toLocaleString("default", { weekday: "long" });
+    var day5_content = dateObj.toLocaleString("default", { weekday: "short" });
     const dayname5 = document.getElementById("dayName5");
     dayname5.textContent = day5_content;
 

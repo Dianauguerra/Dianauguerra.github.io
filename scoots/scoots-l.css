@@ -70,9 +70,14 @@
         
     }
 
+    #current-weather-div{
+        display: block;
+    }
+
     #header-img{
         background-color: white;
     }
+    /* RENTAL FORM */
 
     #option1, #option2, #option3{
 
@@ -85,8 +90,6 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     }
-
-    /* RENTAL FORM */
 
     input[type=text], input[type=tel], input[type=email], select {
         padding: 0.5rem;
